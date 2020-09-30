@@ -1,0 +1,17 @@
+ASTAT=$(cat /home/$USER/.anon_status)
+if [[ ${ASTAT} == "YES" ]]; then
+   echo -e "\n    ================================================"
+   echo -e "${ORNG}[${RED}!${ORNG}] ${LGRY}System Proxy is still active..."
+   echo -e "${LP}Attempting to stop it now..."
+   sudo anonsurf stop
+   echo -e "${LP}Proxy Stopped${RED}!${NC}"
+   echo "NO" > /home/$USER/.anon_status
+   echo -e "\n    ================================================"
+fi
+sudo docker container ls > .ren_dcr
+RENCHK=$(cat .ren_dcr | grep rengine)
+if [[ ${RENCHK} == "rengine_web_1" ]]; then
+   sudo docker stop rengine_proxy_1 rengine_web_1 rengine_db_1
+fi
+sudo rm .ren_dcr
+exit 0
