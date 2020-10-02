@@ -29,7 +29,7 @@
 # Release
 
 	@Codename : g
-	@Extention: sifter
+	@Extention: G Extention Only
 	@Version  : Alpha (Experimental)
 	
 <em>[<strong>Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10.zip"><strong>here</strong></a></em>
@@ -88,23 +88,36 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 # Installation:
 	
+	# gSifter (Full Package Instructions)
 	# gSifter Installation (Deb package)
 	To install sifter run one of the following commands below.
 	[!] For oneliner install (Deb Package), copy and paste the following code into a terminal:
 	*
-	$ wget https://github.com/s1l3nt78/gSifter/releases/download/v10/gSifter_10.deb && sudo dpkg -i gSifter_10.deb && gSifter
+	$ wget https://github.com/s1l3nt78/gSifter/releases/download/v10/gSifter_v10_full.deb && sudo dpkg -i gSifter_v10_full.deb && gSifter
 	
 	-----------------------------------------------------------------------------------------------------------------
-
-	# gSifter Installation (OneLiner)
+	# gSifter (OneLiner | Full Package)
+	[!] The main branch is not default so MUST be specified for full package
+	*
+	$ git clone --branch main https://github.com/s1l3nt78/gSifter
+	*
+	$ cd gSifter
+	*
+	$ bash install.sh
+	
+	-----------------------------------------------------------------------------------------------------------------
+	-----------------------------------------------------------------------------------------------------------------
+	
+	# gSifter (Extention Only Instructions)
+	# gSifter Installation (OneLiner | Extention Only)
 	[!] For oneliner install (source), copy and paste the following into a terminal:
 	*
 	$ git clone https://github.com/s1l3nt78/gSifter.git && cd gSifter && bash install.sh
 
 	------------------------------------------------------------------------------------------------------------------
 	
-	# Sifter Extention (g)
-	To just install the extention (if sifter is already installed), run the command below.
+	# gSifter (Extention Deb Package)
+	[!] To just install the extention (if sifter is already installed), run the command below.
 	*
 	$ git clone --branch g-ex https://github.com/s1l3nt78/gSifter
 	*
