@@ -50,6 +50,7 @@
 
 <strong>Sifter Add-On Extentions</strong>
 - g - Sifter's <em>g</em> extention gives a GUI overlay
+	'--> Built on top of <a href="https://github.com/GitSquared/edex-ui">eDEX-UI</a>
 
 ---------------------------------------------------------------------------------------------------------------------
 
