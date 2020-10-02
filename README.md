@@ -38,6 +38,10 @@
 <em>Older Releases can be found <a href="https://github.com/s1l3nt78/sifter/archive/"><strong>here</strong></a></em>
 <br>
 <br>
+<em>If you already have sifter installed you can just checkout the extention to install it along side exsiting sifter
+<br /></em> Extention Instructions below
+<br />
+<br />
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -83,18 +87,18 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 # Installation:
 	
-	# Sifter Installation (Deb package)
+	# gSifter Installation (Deb package)
 	To install sifter run one of the following commands below.
 	[!] For oneliner install (Deb Package), copy and paste the following code into a terminal:
 	*
-	$ wget https://github.com/s1l3nt78/sifter/releases/download/v10/sifter_10-r2.deb && sudo dpkg -i sifter_10-r2.deb && sifter
+	$ wget https://github.com/s1l3nt78/gSifter/releases/download/v10/gSifter_10.deb && sudo dpkg -i gSifter_10.deb && gSifter
 	
 	-----------------------------------------------------------------------------------------------------------------
 
-	# Sifter Installation (OneLiner)
+	# gSifter Installation (OneLiner)
 	[!] For oneliner install (source), copy and paste the following into a terminal:
 	*
-	$ git clone https://github.com/s1l3nt78/sifter.git && cd sifter && bash install.sh
+	$ git clone https://github.com/s1l3nt78/gSifter.git && cd gSifter && bash install.sh
 
 	------------------------------------------------------------------------------------------------------------------
 	
@@ -115,6 +119,12 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	<br />
 <img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
 </p>
+# Extentions
+
+<strong>Sifter Add-On Extentions</strong>
+- g - Sifter's <em>g</em> extention gives a GUI overlay
+
+---------------------------------------------------------------------------------------------------------------------
 
 # Modules:
 
