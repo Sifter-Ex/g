@@ -1,0 +1,21 @@
+{
+    "shell": "bash /usr/sbin/sifter",
+    "cwd": "/opt/sifter/results",
+    "keyboard": "en-US",
+    "theme": "matrix",
+    "termFontSize": 15,
+    "audio": true,
+    "disableFeedbackAudio": false,
+    "pingAddr": "1.1.1.1",
+    "port": 60606,
+    "monitor": 0,
+    "nointro": false,
+    "nocursor": false,
+    "iface": "eth0",
+    "allowWindowed": true,
+    "excludeThreadsFromToplist": true,
+    "hideDotfiles": false,
+    "fsListView": false,
+    "experimentalGlobeFeatures": false,
+    "experimentalFeatures": true
+}
