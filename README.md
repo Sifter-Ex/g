@@ -30,6 +30,7 @@
 
 	@Codename : g
 	@Extention: sifter
+	@Version  : Alpha (Experimental)
 	
 <em>[<strong>Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10.zip"><strong>here</strong></a></em>
 <br />
