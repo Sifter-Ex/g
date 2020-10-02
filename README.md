@@ -69,6 +69,8 @@ through to get the general idea. Most modules are explained along with demos of 
 		    - Ubuntu
 		    - Linux (any distro)
 		    - Windows (Linux Subsystem with Docker and VcXsrc installed correctly - for xterm use)
+	
+	This extention works on all systems but REQUIRES a working xServer
 		    
 Works on windows with linux-subsystem but please ensure docker is properly installed and configured, <br /> 
 following the instructions from <a href="https://docker.io">docker website</a><br />
