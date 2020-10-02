@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install nodejs npm libfuse3-3 libfuse3-dev libfuse2 libfuse-dev
+sudo apt-get install nodejs npm libfuse3-3 libfuse3-dev libfuse2 libfuse-dev fuse
 mv eDEX-UI -t /home/$USER/.config/
 cp gSifter sifter -t /usr/sbin
 mv gSifter sifter -t /opt/sifter
