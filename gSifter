@@ -1,3 +1,6 @@
 #!/bin/bash
 cd /opt/sifter
+if [[ -f "install-ex.sh" ]]; then
+        bash install-ex.sh
+fi
 ./gSifter_eDEX-UI.App.Image
