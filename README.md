@@ -119,6 +119,9 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	<br />
 <img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
 </p>
+
+--------------------------------------------------------------------------------------------------------------------
+
 # Extentions
 
 <strong>Sifter Add-On Extentions</strong>
