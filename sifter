@@ -1321,7 +1321,9 @@ results(){
     rm img.tmp word.tmp
 }
 
-
+if [[ ! -f "/home/$USER/.config/.anon_status" ]]; then
+	echo "NO" > /home/$USER/.config/.anon_status
+fi
 #############################
 # Initial Proxy Check (img) #
 #############################
@@ -1494,8 +1496,8 @@ modules(){
                                 ;;
 
                             "*")
-                                if [[ -d ${opt} ]]; then
-                                    cd ${opt}
+                                if [[ ${opt} == "cd "* ]]; then
+                                   ${opt}
                                 fi
                                 ;;
 
@@ -1560,8 +1562,8 @@ menu(){
             sudo docker stop rengine_proxy_1 rengine_web_1 rengine_db_1
         fi
         exit 0
-    elif [[ -d ${MNOP} ]]; then
-        cd ${MNOP}
+    elif [[ ${MNOP} == "cd "* ]]; then
+        ${MNOP}
     else
         echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected.\nPlease enter the corresponding number${NC}"
     fi
