@@ -83,26 +83,28 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 # Installation:
 	
-	This is the GUI extention for sifter
-
-	To install sifter run one of the following commands below.<br />
-	
+	# Sifter Installation (Deb package)
+	To install sifter run one of the following commands below.
 	[!] For oneliner install (Deb Package), copy and paste the following code into a terminal:
 	*
 	$ wget https://github.com/s1l3nt78/sifter/releases/download/v10/sifter_10-r2.deb && sudo dpkg -i sifter_10-r2.deb && sifter
 	
-	
+	-----------------------------------------------------------------------------------------------------------------
+
+	# Sifter Installation (OneLiner)
 	[!] For oneliner install (source), copy and paste the following into a terminal:
 	*
 	$ git clone https://github.com/s1l3nt78/sifter.git && cd sifter && bash install.sh
 
-
-	To just install the extention (if sifter is already installed), run the command below.<br />
-
+	------------------------------------------------------------------------------------------------------------------
+	
+	# Sifter Extention (g)
+	To just install the extention (if sifter is already installed), run the command below.
+	*
 	$ git clone --branch g-ex https://github.com/s1l3nt78/gSifter
-
+	*
 	$ cd gSifter
-
+	*
 	$ bash install-ex.sh
 
 ---------------------------------------------------------------------------------------------------------------------
