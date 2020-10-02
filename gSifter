@@ -1,11 +1,3 @@
 #!/bin/bash
-####################
-#    Root Check    #
-####################
-
-if [[ $EUID -ne 0 ]]; then
-   echo "This script must be run as ROOT USER"
-   exit 1
-fi
 cd /opt/sifter
 ./gSifter_eDEX-UI.App.Image
