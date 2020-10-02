@@ -10,7 +10,7 @@
 <br>
 	<img align="center" src="https://img.shields.io/badge/@Codename:-Gemin1-yellowgreen"><br />
 	<img align="center" src="https://img.shields.io/badge/Version-10-red">
-	<img align="center" src="https://img.shields.io/badge/Revision-2-green">
+	<img align="center" src="https://img.shields.io/badge/Revision-3-green">
 <br>
 	<img align="center" src="https://img.shields.io/badge/Extention-g-orange">
 </p>
