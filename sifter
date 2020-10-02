@@ -1325,7 +1325,7 @@ results(){
 #############################
 # Initial Proxy Check (img) #
 #############################
-ASTAT=$(cat $USER/.config/.anon_status)
+ASTAT=$(cat /home/$USER/.config/.anon_status)
 if [[ ${ASTAT} == "NO" ]]; then
     EXC="${BIGreen}[${RED}*${BIGreen}]${NC}"
 else
@@ -1336,7 +1336,7 @@ fi
 # Proxy Options
 ################
 proxysystem(){
-    ASTAT=$(cat $USER/.config/.anon_status)
+    ASTAT=$(cat /home/$USER/.config/.anon_status)
     if [[ ${ASTAT} == "YES" ]]; then
         ENA="Anonsurf is currently: On"
         STOP="TRUE \"Stop\""
@@ -1387,7 +1387,7 @@ modules(){
     echo -e "${URED}"
     figlet -f mini "Modules"
     echo -e "${NC}"
-    ASTAT=$(cat $USER/.config/.anon_status)
+    ASTAT=$(cat /home/$USER/.config/.anon_status)
     echo -e " ${W}=============================================================${NC}"
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}What would you like to do?\n ${W}==================================================${NC}"
@@ -1476,14 +1476,14 @@ modules(){
                                 ;;
 
                             "Quit")
-                                ASTAT=$(cat $USER/.config/.anon_status)
+                                ASTAT=$(cat /home/$USER/.config/.anon_status)
                                 if [[ ${ASTAT} == "YES" ]]; then
                                     echo -e "\n    ================================================" 
                                     echo -e "${ORNG}[${RED}!${ORNG}] ${LGRY}System Proxy is still active..."
                                     echo -e "${LP}Attempting to stop it now..."
                                     sudo anonsurf stop
                                     echo -e "${LP}Proxy Stopped${RED}!${NC}"
-                                    echo "NO" > $USER/.config/.anon_status
+                                    echo "NO" > /home/$USER/.config/.anon_status
                                     echo -e "\n    ================================================"
                                 fi
                                 RENCHK=$(sudo docker container ls | grep rengine)
@@ -1512,7 +1512,7 @@ menu(){
     python3 extras/ban.py
     python3 extras/ban2.py
     arg=$1
-    ASTAT=$(cat $USER/.config/.anon_status)   
+    ASTAT=$(cat /home/$USER/.config/.anon_status)   
     echo -e " ${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}What would you like to do?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} Check Hosts               ${ORNG}5.${W} View Results${NC}"
@@ -1552,7 +1552,7 @@ menu(){
             echo -e "${LP}Attempting to stop it now..."
             sudo anonsurf stop
             echo -e "${LP}Proxy Stopped${RED}!${NC}"
-            echo "NO" > $USER/.config/.anon_status
+            echo "NO" > /home/$USER/.config/.anon_status
             echo -e "\n    ================================================"
         fi
         RENCHK=$(sudo docker container ls | grep rengine)
@@ -1653,7 +1653,7 @@ if [[ ${STLTH} == "--stealth" ]]; then
     echo -e " ${W}===========================================${NC}"
     echo -e "${LP}Starting Sifter in ${URED}Anonymous${NC} ${LP}mode${NC}"
     sudo anonsurf start
-    echo "YES" > $USER/.config/.anon_status      
+    echo "YES" > /home/$USER/.config/.anon_status      
     echo -e " ${W}===========================================${NC}"
     menu
 fi
