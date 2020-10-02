@@ -46,6 +46,13 @@
 
 ---------------------------------------------------------------------------------------------------------------------
 
+# Extentions
+
+<strong>Sifter Add-On Extentions</strong>
+- g - Sifter's <em>g</em> extention gives a GUI overlay
+
+---------------------------------------------------------------------------------------------------------------------
+
 # Overview
 
 Sifter is a osint, recon & vulnerability scanner. It combines a plethara of tools within different module sets in order to quickly perform recon tasks, check network firewalling, enumerate remote and local hosts, and scan for the 'blue' vulnerabilities within microsft and if unpatched, exploit them.  It uses tools like blackwidow and konan for webdir enumeration and attack surface mapping rapidly using ASM.
@@ -133,13 +140,6 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 </p>
 
 --------------------------------------------------------------------------------------------------------------------
-
-# Extentions
-
-<strong>Sifter Add-On Extentions</strong>
-- g - Sifter's <em>g</em> extention gives a GUI overlay
-
----------------------------------------------------------------------------------------------------------------------
 
 # Modules:
 
