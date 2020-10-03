@@ -107,13 +107,13 @@ cred_mods(){
 	elif [[ ${CMM} == "6" ]]; then
 		modules
 	elif [[ ${CMM} == "cd "* ]]; then
-        DCK=$(pwd)
-        echo ${CMM} > dtemp
+        	DCK=$(pwd)
+        	echo ${CMM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+		rm dtemp
+        	cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		cred_mods
@@ -160,13 +160,13 @@ phone_mods(){
 		modules
 	elif [[ ${PMM} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${PMM} > dtemp
+        	echo ${PMM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
-	else
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+        	rm dtemp
+		cd ${DCK}/${DCC}
+      	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		phone_mods
 	fi
@@ -194,12 +194,12 @@ info_mods(){
 		modules
 	elif [[ ${IFM} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${IFM} > dtemp
+        	echo ${IFM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+        	rm dtemp
+		cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		info_mods
@@ -235,12 +235,12 @@ honey_mods(){
 		modules
 	elif [[ ${HPM} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${HPM} > dtemp
+        	echo ${HPM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+		rm dtemp
+		cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		honey_mods
@@ -277,12 +277,12 @@ dom_mods(){
 		modules
 	elif [[ ${DMM} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${DMM} > dtemp
+        	echo ${DMM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+        	rm dtemp
+		cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		dom_mods
@@ -331,12 +331,12 @@ net_mods(){
 		modules
 	elif [[ ${NTM} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${NTM} > dtemp
+        	echo ${NTM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+        	rm dtemp
+		cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		net_mods
@@ -375,12 +375,12 @@ vuln_mods(){
 		modules
 	elif [[ ${VNM} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${VNM} > dtemp
+        	echo ${VNM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+       	 	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+        	rm dtemp
+		cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		vuln_mods
@@ -424,12 +424,12 @@ web_mods(){
 		modules
 	elif [[ ${WEM} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${WEM} > dtemp
+        	echo ${WEM} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+        	rm dtemp
+		cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		web_mods
@@ -451,11 +451,11 @@ post_ex(){
 	echo -e " ${ORNG}3.${W} Omega           ${ORNG}8.${W} PowerHUB ${NC}"
 	echo -e " ${ORNG}4.${W} WinPwn 		 ${ORNG}9.${W} Back ${NC}"
 	echo -e " ${ORNG}5.${W} PowerSharp ${NC}"
-    echo -e "\n =============================#?: "
+    	echo -e "\n =============================#?: "
 	read PEX
 	if [[ ${PEX} == "1" ]]; then
 		echo -e "${W}The EoP module helps elevate user privileges on an exploited system${NC}"
-        bash /opt/sifter/modules/postex/EoP.sh
+        	bash /opt/sifter/modules/postex/EoP.sh
 	elif [[ ${PEX} == "2" ]]; then
 		echo -e "${YLW}This will copy a file to your Desktop to be used on an exploited target session\nWould you like to continue?(y/n)${NC}"
 		read BP
@@ -466,13 +466,13 @@ post_ex(){
 		fi
 	elif [[ ${PEX} == "3" ]]; then
 		echo -e "${W}This tool acts as a Command n Control Server for call-back of exploited systems${NC}"
-        bash /opt/sifter/modules/postex/omega.sh
+        	bash /opt/sifter/modules/postex/omega.sh
 	elif [[ ${PEX} == "4" ]]; then
 		echo -e "${W}This module checks for internal system privilege escalation methods that could be used to elevate user privs${NC}"
-        bash /opt/sifter/modules/postex/winpwn.sh
+        	bash /opt/sifter/modules/postex/winpwn.sh
 	elif [[ ${PEX} == "5" ]]; then
 		echo -e "${W}This is a ${YLW}PowerShell${W} tool that is to be used on an exploited system${NC}"
-        xterm -e bash /opt/sifter/modules/postex/powersharp.sh
+        	xterm -e bash /opt/sifter/modules/postex/powersharp.sh
 	elif [[ ${PEX} == "6" ]]; then
 		echo -e "${W}Python3 tool to gather credentials on a successfully infultrated machine${NC}"
         bash /opt/sifter/modules/postex/credharvester.sh
@@ -486,12 +486,12 @@ post_ex(){
 		ex_mods
 	elif [[ ${PEX} == "cd "* ]]; then
 		DCK=$(pwd)
-        echo ${PEX} > dtemp
+        	echo ${PEX} > dtemp
 		sed -i "s/cd '//g" dtemp
-        sed -i "s/'//g" dtemp
-        DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+        	sed -i "s/'//g" dtemp
+        	DCC=$(cat dtemp)
+        	rm dtemp
+		cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		post_ex
@@ -528,8 +528,8 @@ pass_tools(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
         rm dtemp
+	cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		pass_tools
@@ -589,8 +589,8 @@ exframes(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
-        rm dtemp
+	rm dtemp
+	cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		ex_mods
@@ -643,8 +643,8 @@ ex_mods(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
         rm dtemp
+	cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		ex_mods
@@ -717,8 +717,8 @@ search_tools(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
         rm dtemp
+	cd ${DCK}/${DCC}
 	else
 		echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
 		search_tools
@@ -759,8 +759,8 @@ ms_tools(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
         rm dtemp
+	cd ${DCK}/${DCC}
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         ms_tools
@@ -795,8 +795,8 @@ ddos(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
         rm dtemp
+	cd ${DCK}/${DCC}
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         ddos
@@ -834,8 +834,8 @@ routertools(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
         rm dtemp
+	cd ${DCK}/${DCC}
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         routertools
@@ -877,8 +877,8 @@ webex(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
-        cd ${DCK}/${DCC}
         rm dtemp
+	cd ${DCK}/${DCC}
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         webex
@@ -919,8 +919,8 @@ webapps(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
+	rm dtemp
         cd ${DCK}/${DCC}
-        rm dtemp
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         webapps
@@ -956,8 +956,8 @@ xssmods(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
+	rm dtemp
         cd ${DCK}/${DCC}
-        rm dtemp
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         xssmods
@@ -991,8 +991,8 @@ sqlmods(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
+	rm dtemp
         cd ${DCK}/${DCC}
-        rm dtemp
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         sqlmods
@@ -1026,8 +1026,8 @@ xss_sql_mods(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
+	rm dtemp
         cd ${DCK}/${DCC}
-        rm dtemp
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         xss_sql_mods
@@ -1064,8 +1064,8 @@ opsec(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
+	rm dtemp
         cd ${DCK}/${DCC}
-        rm dtemp
     else
 	    echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         opsec
@@ -1367,7 +1367,7 @@ modules(){
     echo -e " ${ORNG}9.${W} WebApp Scanning                 ${W}19.${W} Quit${NC}"
     echo -e " ${ORNG}10.${W} Operational Security & Threat Analysis${NC}"
     echo -e " ${W}"
-    echo -e "\n ==================================#?: "
+    echo -e " ==================================#?: "
     read MMOP
     if [[ ${MMOP} == "1" ]]; then
 	    info_mods
@@ -1434,8 +1434,8 @@ modules(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
+	rm dtemp
         cd ${DCK}/${DCC}
-        rm dtemp
     else
         echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected, please choose\nthe corresponding module number${NC}"
         modules
@@ -1460,7 +1460,7 @@ menu(){
     echo -e " ${ORNG}3.${W} Module Menu               ${ORNG}7.${W} Quit${NC}"
     echo -e " ${ORNG}4.${W} Anonymization${NC}"
     echo -e " ${W}"
-    echo -e "\n =============================#?: "
+    echo -e " =============================#?: "
     read -r MNOP
     if [[ ${MNOP} == "1" ]]; then                   # Check Hosts
 	    TARLIST=$(cat /opt/sifter/files/host_list.txt | grep "eg. target.com")
@@ -1506,8 +1506,8 @@ menu(){
 		sed -i "s/cd '//g" dtemp
         sed -i "s/'//g" dtemp
         DCC=$(cat dtemp)
+	rm dtemp
         cd ${DCK}/${DCC}
-        rm dtemp
     else
         echo -e "${ORNG}[${RED}!${ORNG}] ${YLW}Invalid option selected.\nPlease enter the corresponding number${NC}"
     fi
@@ -1587,7 +1587,6 @@ update(){
     fi
 }
 
-cd /opt/sifter
 if [[ ${STLTH} == "--stealth" ]]; then
     echo -e " ${W}===========================================${NC}"
     echo -e "${LP}Starting Sifter in ${URED}Anonymous${NC} ${LP}mode${NC}"
