@@ -4,4 +4,4 @@ if [[ -f "install-ex.sh" ]]; then
         bash install-ex.sh
         rm install-ex.sh
 fi
-./gSifter_eDEX-UI.App.Image
+./gSifter_eDEX-UI.AppImage
