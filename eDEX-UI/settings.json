@@ -3,7 +3,7 @@
     "cwd": "/opt/sifter",
     "keyboard": "en-US",
     "theme": "matrix",
-    "termFontSize": 15,
+    "termFontSize": 13,
     "audio": true,
     "disableFeedbackAudio": false,
     "pingAddr": "1.1.1.1",
