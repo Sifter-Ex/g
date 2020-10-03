@@ -10,7 +10,7 @@
 <br>
 	<img align="center" src="https://img.shields.io/badge/@Codename:-Gemin1-yellowgreen"><br />
 	<img align="center" src="https://img.shields.io/badge/Version-10-red">
-	<img align="center" src="https://img.shields.io/badge/Revision-2-green">
+	<img align="center" src="https://img.shields.io/badge/Revision-3-green">
 <br>
 	<img align="center" src="https://img.shields.io/badge/Extention-g-orange">
 </p>
@@ -46,6 +46,14 @@
 
 ---------------------------------------------------------------------------------------------------------------------
 
+# Extentions
+
+<strong>Sifter Add-On Extentions</strong>
+- g - Sifter's <em>g</em> extention gives a GUI overlay
+<br />	'--> Built on top of <a href="https://github.com/GitSquared/edex-ui">eDEX-UI</a>
+
+---------------------------------------------------------------------------------------------------------------------
+
 # Overview
 
 Sifter is a osint, recon & vulnerability scanner. It combines a plethara of tools within different module sets in order to quickly perform recon tasks, check network firewalling, enumerate remote and local hosts, and scan for the 'blue' vulnerabilities within microsft and if unpatched, exploit them.  It uses tools like blackwidow and konan for webdir enumeration and attack surface mapping rapidly using ASM.
@@ -69,6 +77,8 @@ through to get the general idea. Most modules are explained along with demos of 
 		    - Ubuntu
 		    - Linux (any distro)
 		    - Windows (Linux Subsystem with Docker and VcXsrc installed correctly - for xterm use)
+	
+	This extention works on all systems but REQUIRES a working xServer
 		    
 Works on windows with linux-subsystem but please ensure docker is properly installed and configured, <br /> 
 following the instructions from <a href="https://docker.io">docker website</a><br />
@@ -131,13 +141,6 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 </p>
 
 --------------------------------------------------------------------------------------------------------------------
-
-# Extentions
-
-<strong>Sifter Add-On Extentions</strong>
-- g - Sifter's <em>g</em> extention gives a GUI overlay
-
----------------------------------------------------------------------------------------------------------------------
 
 # Modules:
 
