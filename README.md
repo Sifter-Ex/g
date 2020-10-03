@@ -13,7 +13,7 @@
 	<img align="center" src="https://img.shields.io/badge/Revision-G-green">
 </p>
 
-# *Sifter*
+# *gSifter*
 <strong><em>s1l3nt78</em></strong>
 <br>
 <strong><em>~The Dead Bunny Collective~</em></strong>
