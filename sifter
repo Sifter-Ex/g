@@ -81,7 +81,6 @@ usage() {                                    	  # Function: Print a help message
 # Enterprise Target Info #
 ##########################
 cred_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Enterprise Information Gatherers"
     echo -e "${LP}This module focuses on Enterprises and their online presence"
@@ -96,15 +95,15 @@ cred_mods(){
     echo -e "\n =============================#?: "
 	read CMM
 	if [[ ${CMM} == "1" ]]; then
-		./modules/credmods/harvester.sh
+		bash /opt/sifter/modules/credmods/harvester.sh
 	elif [[ ${CMM} == "2" ]]; then
-		./modules/credmods/osmedeus.sh
+		bash /opt/sifter/modules/credmods/osmedeus.sh
 	elif [[ ${CMM} == "3" ]]; then
-		./modules/credmods/rspider.sh
+		bash /opt/sifter/modules/credmods/rspider.sh
 	elif [[ ${CMM} == "4" ]]; then
-		./modules/credmods/credninja.sh
+		bash /opt/sifter/modules/credmods/credninja.sh
 	elif [[ ${CMM} == "5" ]]; then
-		./modules/credmods/osintf.sh
+		bash /opt/sifter/modules/credmods/osintf.sh
 	elif [[ ${CMM} == "6" ]]; then
 		modules
 	elif [[ ${CMM} == "cd "* ]]; then
@@ -119,7 +118,6 @@ cred_mods(){
 # Individual Target Info #
 ##########################
 phone_mods(){
-  cd /opt/sifter
   echo -e "${RED}"
   figlet -f mini "Targeted Information Gatherers"
   echo -e "${LP}This module focuses on individual targets."
@@ -135,23 +133,23 @@ phone_mods(){
     echo -e "\n =============================#?: "
 	read PMM
 	if [[ ${PMM} == "1" ]]; then
-		./modules/credmods/seeker.sh
+		bash /opt/sifter/modules/credmods/seeker.sh
 	elif [[ ${PMM} == "2" ]]; then
-		./modules/credmods/sherlock.sh
+		bash /opt/sifter/modules/credmods/sherlock.sh
 	elif [[ ${PMM} == "3" ]]; then
-		./modules/credmods/maryam.sh
+		bash /opt/sifter/modules/credmods/maryam.sh
 	elif [[ ${PMM} == "4" ]]; then
-		./modules/credmods/xray.sh
+		bash /opt/sifter/modules/credmods/xray.sh
 	elif [[ ${PMM} == "5" ]]; then
-		./modules/credmods/e2p.sh
+		bash /opt/sifter/modules/credmods/e2p.sh
 	elif [[ ${PMM} == "6" ]]; then
-		./modules/credmods/odin.sh
+		bash /opt/sifter/modules/credmods/odin.sh
 	elif [[ ${PMM} == "7" ]]; then
-		./modules/credmods/cardpwn.sh
+		bash /opt/sifter/modules/credmods/cardpwn.sh
 	elif [[ ${PMM} == "8" ]]; then
 		deadtrap
 	elif [[ ${PMM} == "9" ]]; then
-		./modules/credmods/iky.sh
+		bash /opt/sifter/modules/credmods/iky.sh
 	elif [[ ${PMM} == "10" ]]; then
 		modules
 	elif [[ ${PMM} == "cd "* ]]; then
@@ -166,7 +164,6 @@ phone_mods(){
 # Info Gathering Modules #
 ##########################
 info_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Information Gatherers"
     echo -e "${ORNG}"
@@ -196,7 +193,6 @@ info_mods(){
 # HoneyPot Scanners #
 #####################
 honey_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "HoneyPot Detection Systems"
     echo -e "${LP}This module focuses on Enterprises and their online presence"
@@ -210,13 +206,13 @@ honey_mods(){
 	echo -e "\n =============================#?: "
 	read HPM
 	if [[ ${HPM} == "1" ]]; then
-		./modules/honeymods/honeyc.sh
+		bash /opt/sifter/modules/honeymods/honeyc.sh
 	elif [[ ${HPM} == "2" ]]; then
-		./modules/honeymods/s_bear.sh
+		bash /opt/sifter/modules/honeymods/s_bear.sh
 	elif [[ ${HPM} == "3" ]]; then
-		./modules/honeymods/honeytel.sh
+		bash /opt/sifter/modules/honeymods/honeytel.sh
 	elif [[ ${HPM} == "4" ]]; then
-		./modules/honeymods/hfish.sh
+		bash /opt/sifter/modules/honeymods/hfish.sh
 	elif [[ ${HPM} == "5" ]]; then
 		modules
 	elif [[ ${HPM} == "cd "* ]]; then
@@ -232,7 +228,6 @@ honey_mods(){
 # Domain Modules #
 ##################
 dom_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Domain Recon Gathering"
     echo -e "${ORNG}"
@@ -245,15 +240,15 @@ dom_mods(){
     echo -e "\n =============================#?: "
 	read DMM
 	if [[ ${DMM} == "1" ]]; then
-		./modules/dommods/dnstwist.sh
+		bash /opt/sifter/modules/dommods/dnstwist.sh
 	elif [[ ${DMM} == "2" ]]; then
-		./modules/dommods/armory.sh
+		bash /opt/sifter/modules/dommods/armory.sh
 	elif [[ ${DMM} == "3" ]]; then
-		./modules/dommods/spiderfoot.sh
+		bash /opt/sifter/modules/dommods/spiderfoot.sh
 	elif [[ ${DMM} == "4" ]]; then
-		./modules/dommods/subfinder.sh
+		bash /opt/sifter/modules/dommods/subfinder.sh
 	elif [[ ${DMM} == "5" ]]; then
-		./modules/dommods/pulsar.sh
+		bash /opt/sifter/modules/dommods/pulsar.sh
 	elif [[ ${DMM} == "6" ]]; then
 		modules
 	elif [[ ${DMM} == "cd "* ]]; then
@@ -268,7 +263,6 @@ dom_mods(){
 # Network Modules #
 ###################
 net_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Network Scanners"
     echo -e "${ORNG}"
@@ -282,7 +276,7 @@ net_mods(){
     echo -e "\n =============================#?: "
 	read NTM
 	if [[ ${NTM} == "1" ]]; then
-		./modules/netmods/nmap.sh
+		bash /opt/sifter/modules/netmods/nmap.sh
 	elif [[ ${NTM} == "2" ]]; then
 		echo -e "${YLW}Would you like to scan your ${RED}l${YLW}ocal network, or use ${RED}c${YLW}ustom arp-scan args?(${RED}l${YLW}/${RED}c${YLW})${NC}"
         read ASO
@@ -296,13 +290,13 @@ net_mods(){
             sudo arp-scan ${ARPARG}
         fi
 	elif [[ ${NTM} == "3" ]]; then
-		./modules/netmods/asm.sh
+		bash /opt/sifter/modules/netmods/asm.sh
 	elif [[ ${NTM} == "4" ]]; then
-		./modules/netmods/wafw00f.sh
+		bash /opt/sifter/modules/netmods/wafw00f.sh
 	elif [[ ${NTM} == "5" ]]; then
-		./modules/netmods/asnip.sh
+		bash /opt/sifter/modules/netmods/asnip.sh
 	elif [[ ${NTM} == "6" ]]; then
-		./modules/netmods/espionage.sh
+		bash /opt/sifter/modules/netmods/espionage.sh
 	elif [[ ${NTM} == "7" ]]; then
 		modules
 	elif [[ ${NTM} == "cd "* ]]; then
@@ -317,7 +311,6 @@ net_mods(){
 # Vulnerability Scanners #
 ##########################
 vuln_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Vulnerability Scanners"
     echo -e "${ORNG}"
@@ -331,17 +324,17 @@ vuln_mods(){
     echo -e "\n =============================#?: "
 	read VNM
 	if [[ ${VNM} == "1" ]]; then
-		./modules/vulnscanners/flan.sh
+		bash /opt/sifter/modules/vulnscanners/flan.sh
 	elif [[ ${VNM} == "2" ]]; then
-		./modules/vulnscanners/rapidscan.sh
+		bash /opt/sifter/modules/vulnscanners/rapidscan.sh
 	elif [[ ${VNM} == "3" ]]; then
-		./modules/vulnscanners/yuki.sh
+		bash /opt/sifter/modules/vulnscanners/yuki.sh
 	elif [[ ${VNM} == "4" ]]; then
-		./modules/vulnscanners/ktf.sh
+		bash /opt/sifter/modules/vulnscanners/ktf.sh
 	elif [[ ${VNM} == "5" ]]; then
-		./modules/vulnscanners/nettacker.sh
+		bash /opt/sifter/modules/vulnscanners/nettacker.sh
 	elif [[ ${VNM} == "6" ]]; then
-		./modules/vulnscanners/bip.sh
+		bash /opt/sifter/modules/vulnscanners/bip.sh
 	elif [[ ${VNM} == "7" ]]; then
 		modules
 	elif [[ ${VNM} == "cd "* ]]; then
@@ -356,7 +349,6 @@ vuln_mods(){
 # Web-Focused Modules #
 #######################
 web_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Website Scanners & Enumerators"
     echo -e "${ORNG}"
@@ -370,22 +362,22 @@ web_mods(){
     echo -e "\n =============================#?: "
 	read WEM
 	if [[ ${WEM} == "1" ]]; then
-		./modules/webmods/dirb.sh
+		bash /opt/sifter/modules/webmods/dirb.sh
 	elif [[ ${WEM} == "2" ]]; then
-		./modules/webmods/nikto.sh
+		bash /opt/sifter/modules/webmods/nikto.sh
 	elif [[ ${WEM} == "3" ]]; then
-		./modules/webmods/widow.sh
+		bash /opt/sifter/modules/webmods/widow.sh
 	elif [[ ${WEM} == "4" ]]; then
 		echo -e "${YLW}WPScan & WPForce"
         echo -e "${W}Tools for use against wordpress${NC}"
         sleep 3
-        ./modules/webmods/wordpress.sh
+        bash /opt/sifter/modules/webmods/wordpress.sh
 	elif [[ ${WEM} == "5" ]]; then
-		./modules/webmods/dorkseye.sh
+		bash /opt/sifter/modules/webmods/dorkseye.sh
 	elif [[ ${WEM} == "6" ]]; then
-		./modules/webmods/kds.sh
+		bash /opt/sifter/modules/webmods/kds.sh
 	elif [[ ${WEM} == "7" ]]; then
-		./modules/webmods/zeus.sh
+		bash /opt/sifter/modules/webmods/zeus.sh
 	elif [[ ${WEM} == "8" ]]; then
 		modules
 	elif [[ ${WEM} == "cd "* ]]; then
@@ -415,33 +407,33 @@ post_ex(){
 	read PEX
 	if [[ ${PEX} == "1" ]]; then
 		echo -e "${W}The EoP module helps elevate user privileges on an exploited system${NC}"
-        ./modules/postex/EoP.sh
+        bash /opt/sifter/modules/postex/EoP.sh
 	elif [[ ${PEX} == "2" ]]; then
 		echo -e "${YLW}This will copy a file to your Desktop to be used on an exploited target session\nWould you like to continue?(y/n)${NC}"
 		read BP
 		if [[ ${BP} == "y" ]]; then
-			./modules/postex/potnpea.sh
+			bash /opt/sifter/modules/postex/potnpea.sh
 		else
 			post_ex
 		fi
 	elif [[ ${PEX} == "3" ]]; then
 		echo -e "${W}This tool acts as a Command n Control Server for call-back of exploited systems${NC}"
-        ./modules/postex/omega.sh
+        bash /opt/sifter/modules/postex/omega.sh
 	elif [[ ${PEX} == "4" ]]; then
 		echo -e "${W}This module checks for internal system privilege escalation methods that could be used to elevate user privs${NC}"
-        ./modules/postex/winpwn.sh
+        bash /opt/sifter/modules/postex/winpwn.sh
 	elif [[ ${PEX} == "5" ]]; then
 		echo -e "${W}This is a ${YLW}PowerShell${W} tool that is to be used on an exploited system${NC}"
         xterm -e bash /opt/sifter/modules/postex/powersharp.sh
 	elif [[ ${PEX} == "6" ]]; then
 		echo -e "${W}Python3 tool to gather credentials on a successfully infultrated machine${NC}"
-        ./modules/postex/credharvester.sh
+        bash /opt/sifter/modules/postex/credharvester.sh
 	elif [[ ${PEX} == "7" ]]; then
 		echo -e "${W}This tool is used on an exploited target\n in order to search for Shadow Admins${NC}"
-        ./modules/postex/aclight.sh
+        bash /opt/sifter/modules/postex/aclight.sh
 	elif [[ ${PEX} == "8" ]]; then
 		echo -e "${W}This tool is used in order to help bypass end-point protection${NC}"
-        ./modules/postex/powerhub.sh
+        bash /opt/sifter/modules/postex/powerhub.sh
 	elif [[ ${PEX} == "9" ]]; then
 		ex_mods
 	elif [[ ${PEX} == "cd "* ]]; then
@@ -456,7 +448,6 @@ post_ex(){
 # Password Tools #
 ##################
 pass_tools(){
-    cd /opt/sifter/modules/passtools
     echo -e "${RED}"
     figlet -f mini "Password Tools"
     echo -e "${ORNG}"
@@ -469,12 +460,12 @@ pass_tools(){
 	read PST
 	if [[ ${PST} == "1" ]]; then
 		echo -e "${YLW}Mentalist is a Graphical password creation tool"
-        ./modules/passtools/Mentalist
+        bash /opt/sifter/modules/passtools/Mentalist
 	elif [[ ${PST} == "2" ]]; then
 		echo -e "${YLW}Decipher hashes using online rainbow & lookup table attack services.${NC}"
-        ./modules/passtools/dcipher.sh
+        bash /opt/sifter/modules/passtools/dcipher.sh
 	elif [[ ${PST} == "3" ]]; then
-		./modules/passtools/ciphey.sh
+		bash /opt/sifter/modules/passtools/ciphey.sh
 	elif [[ ${PST} == "4" ]]; then
 		modules
 	elif [[ ${PST} == "cd "* ]]; then
@@ -489,10 +480,10 @@ pass_tools(){
 # Exploitation Frameworks #
 ###########################
 exframes(){
-  echo -e "${RED}"
-  figlet -f mini "Exploitation Frameworks"
-  echo -e "${ORNG}"
-  ASTAT=$(cat /home/$USER/.config/.anon_status)
+    echo -e "${RED}"
+    figlet -f mini "Exploitation Frameworks"
+    echo -e "${ORNG}"
+    ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} Metasploit           ${ORNG}3.${W} FuzzyDander ${NC}"
@@ -511,7 +502,7 @@ exframes(){
 		echo -e "${YLW}This is an exploitation framework aimed towards Linux Exploitation\n${LP}Would you like to continue?(y/n)${NC}"
         read XOPT
         if [[ ${XOPT} == "y" ]]; then
-            ./modules/exmods/thoron.sh
+            bash /opt/sifter/modules/exmods/thoron.sh
         else
             exframes
         fi
@@ -525,7 +516,7 @@ exframes(){
             echo -e "${W}Would you like to continue?(y/n)${NC}"
             read M_ANS
             if [[ ${M_ANS} == 'y' ]]; then
-                ./modules/exmods/fuzzyd.sh
+                bash /opt/sifter/modules/exmods/fuzzyd.sh
             else
                 exframes
             fi
@@ -544,7 +535,6 @@ exframes(){
 # Exploitation Modules #
 ########################
 ex_mods(){
-  cd /opt/sifter
   echo -e "${RED}"
   figlet -f mini "Exploitation Tools"
   echo -e "${ORNG}"
@@ -566,7 +556,7 @@ ex_mods(){
 	elif [[ ${EXTP} == "3" ]]; then
 		echo -e "${YLW}TigerShark is a multi-tooled phishing framework${NC}"
         sleep 3
-        ./modules/exmods/tiger.sh
+        bash /opt/sifter/modules/exmods/tiger.sh
 	elif [[ ${EXTP} == "4" ]]; then
 		echo -e "${YLW}These tools are aimed at exploiting websites${NC}"
         sleep 3
@@ -593,7 +583,6 @@ ex_mods(){
 # BruteForce Modules #
 ######################
 bruters(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "BruteDUM"
     echo -e "${ORNG}"
@@ -607,9 +596,9 @@ bruters(){
 	if [[ ${BTS} == "1" ]]; then
 		echo -e "${YLW}BruteDUM is a bruteforcing tool that consists of Medusa, nCrack, Hydra${NC}"
         sleep 3
-        ./modules/exmods/brutedum.sh
+        bash /opt/sifter/modules/exmods/brutedum.sh
 	elif [[ ${BTS} == "2" ]]; then
-		./modules/exmods/wbruter.sh
+		bash /opt/sifter/modules/exmods/wbruter.sh
 	elif [[ ${BTS} == "3" ]]; then
 		modules
 	elif [[ ${BTS} == "cd "* ]]; then
@@ -624,7 +613,6 @@ bruters(){
 # Exploit Searchers #
 #####################
 search_tools(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Exploit Finders"
     echo -e "${ORNG}"
@@ -638,11 +626,11 @@ search_tools(){
 	if [[ ${SST} == "1" ]]; then
 		echo -e "${YLW}ShodanSploit allows for shodan searches to be done quickly from the terminal${NC}"
         sleep 3
-        ./modules/exmods/ssploit.sh
+        bash /opt/sifter/modules/exmods/ssploit.sh
 	elif [[ ${SST} == "2" ]]; then
 		echo -e "${YLW}This tool allows you to search, copy or compile exploits${NC}"
         sleep 3
-        ./modules/exmods/fsploit.sh
+        bash /opt/sifter/modules/exmods/fsploit.sh
 	elif [[ ${SST} == "3" ]]; then
 		modules
 	elif [[ ${SST} == "cd "* ]]; then
@@ -657,7 +645,6 @@ search_tools(){
 # MicroSoft Exploitation #
 ##########################
 ms_tools(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "MicroSoft Exploitation Tools"
     echo -e "${ORNG}"
@@ -671,15 +658,15 @@ ms_tools(){
     if [[ ${MST} == "1" ]]; then
 	    echo -e "${YLW}ActiveReign is a LDAP Network-Attack toolkit${NC}"
         sleep 3
-        ./modules/exmods/ar3.sh
+        bash /opt/sifter/modules/exmods/ar3.sh
     elif [[ ${MST} == "2" ]]; then
 	    echo -e "${YLW}iSpy is a ${UBLUE}BlueKeep${NC}${YLW} & ${UBLUE}EternalBlue${NC}${YLW} Vulnerability Scanner${NC}"
 	    sleep 3
-	    ./modules/exmods/ispy.sh
+	    bash /opt/sifter/modules/exmods/ispy.sh
     elif [[ ${MST} == "3" ]]; then
 	    echo -e "${LP}SMBGhost scans for the CVE-2020-0796 vulnerability in Windows SMB3 protocol${NC}"
         sleep 3
-        ./modules/exmods/smbghost.sh
+        bash /opt/sifter/modules/exmods/smbghost.sh
     elif [[ ${MST} == "4" ]]; then
 	    modules
     elif [[ ${MST} == "cd "* ]]; then
@@ -694,7 +681,6 @@ ms_tools(){
 # DDoS Tools #
 ##############
 ddos(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "DDoS Tools"
     echo -e "${ORNG}"
@@ -706,11 +692,11 @@ ddos(){
     echo -e "\n =============================#?: "
     read DDS
     if [[ ${DDS} == "1" ]]; then
-	    ./modules/exmods/dark_star.sh
+	    bash /opt/sifter/modules/exmods/dark_star.sh
     elif [[ ${DDS} == "2" ]]; then
-	    ./modules/exmods/impulse.sh
+	    bash /opt/sifter/modules/exmods/impulse.sh
     elif [[ ${DDS} == "3" ]]; then
-	    ./modules/exmods/ufonet.sh
+	    bash /opt/sifter/modules/exmods/ufonet.sh
     elif [[ ${DDS} == "4" ]]; then
 	    webex
     elif [[ ${DDS} == "cd "* ]]; then
@@ -726,7 +712,6 @@ ddos(){
 # Router Tools #
 ################
 routertools(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Router Tools"
     echo -e "${ORNG}"
@@ -760,7 +745,6 @@ routertools(){
 # Web Exploitation #
 ####################
 webex(){
-  cd /opt/sifter
   echo -e "${RED}"
   figlet -f mini "Website Exploitation Tools"
   echo -e "${ORNG}"
@@ -774,15 +758,15 @@ webex(){
     read WBX
     if [[ ${WBX} == "1" ]]; then
 	    echo -e "${YLW}NekoBot is a Web-Shell exploitation framework${NC}"
-        ./modules/exmods/nekobot.sh
+        bash /opt/sifter/modules/exmods/nekobot.sh
     elif [[ ${WBX} == "2" ]]; then
 	    ddos
     elif [[ ${WBX} == "3" ]]; then
 	    echo -e "${YLW}xShock is a shellshock exploitation tool${NC}"
         sleep 3
-        ./modules/exmods/xshock.sh
+        bash /opt/sifter/modules/exmods/xshock.sh
     elif [[ ${WBX} == "4" ]]; then
-	    ./modules/exmods/vulnx.sh
+	    bash /opt/sifter/modules/exmods/vulnx.sh
     elif [[ ${WBX} == "5" ]]; then
 	    modules
     elif [[ ${WBX} == "cd "* ]]; then
@@ -798,7 +782,6 @@ webex(){
 # Web-App Modules #
 ###################
 webapps(){
-  cd /opt/sifter
   echo -e "${RED}"
   figlet -f mini "WebAppplication Scanners"
   echo -e "${ORNG}"
@@ -811,15 +794,15 @@ webapps(){
     echo -e "\n =============================#?: "
     read WAS
     if [[ ${WAS} == "1" ]]; then
-	    ./modules/webapps/sitadel.sh
+	    bash /opt/sifter/modules/webapps/sitadel.sh
     elif [[ ${WAS} == "2" ]]; then
-	    ./modules/webapps/aapfinder.sh
+	    bash /opt/sifter/modules/webapps/aapfinder.sh
     elif [[ ${WAS} == "3" ]]; then
-	    ./modules/webapps/bfac.sh
+	    bash /opt/sifter/modules/webapps/bfac.sh
     elif [[ ${WAS} == "4" ]]; then
-	    ./modules/webapps/onefind.sh
+	    bash /opt/sifter/modules/webapps/onefind.sh
     elif [[ ${WAS} == "5" ]]; then
-	    ./modules/webapps/rengine.sh
+	    bash /opt/sifter/modules/webapps/rengine.sh
     elif [[ ${WAS} == "6" ]]; then
 	    modules
     elif [[ ${WAS} == "cd "* ]]; then
@@ -835,7 +818,6 @@ webapps(){
 # XSS Checkers #
 ################
 xssmods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Cross-Site Scripting"
     echo -e "${ORNG}"
@@ -847,11 +829,11 @@ xssmods(){
     echo -e "\n =============================#?: "
     read XSS
     if [[ ${XSS} == "1" ]]; then
-	    ./modules/xss_sql/xsstrike.sh
+	    bash /opt/sifter/modules/xss_sql/xsstrike.sh
     elif [[ ${XSS} == "2" ]]; then
-	    ./modules/xss_sql/v3n0m.sh
+	    bash /opt/sifter/modules/xss_sql/v3n0m.sh
     elif [[ ${XSS} == "3" ]]; then
-	    ./modules/xss_sql/findom.sh
+	    bash /opt/sifter/modules/xss_sql/findom.sh
     elif [[ ${XSS} == "4" ]]; then
 	    modules
     elif [[ ${XSS} == "cd "* ]]; then
@@ -867,7 +849,6 @@ xssmods(){
 # SQLinjection #
 ################
 sqlmods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "SQLinjection"
     echo -e "${ORNG}"
@@ -879,9 +860,9 @@ sqlmods(){
     echo -e "\n =============================#?: "
     read SQLi
     if [[ ${SQLi} == "1" ]]; then
-	    ./modules/xss_sql/whitewidow.sh
+	    bash /opt/sifter/modules/xss_sql/whitewidow.sh
     elif [[ ${SQLi} == "2" ]]; then
-	    ./modules/xss_sql/v3n0m.sh
+	    bash /opt/sifter/modules/xss_sql/v3n0m.sh
     elif [[ ${SQLi} == "3" ]]; then
 	    modules
     elif [[ ${SQLi} == "cd "* ]]; then
@@ -897,7 +878,6 @@ sqlmods(){
 # XSS & SQL #
 #############
 xss_sql_mods(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Cross-Site Scripting & SQLinjection"
     echo -e "${ORNG}"
@@ -928,7 +908,6 @@ xss_sql_mods(){
 # Operational Security  & Threat Modelling #
 ############################################
 opsec(){
-    cd /opt/sifter
     echo -e "${RED}"
     figlet -f mini "Operational Security &"
     echo -e "${YLW}"
@@ -942,9 +921,9 @@ opsec(){
     echo -e "\n =============================#?: "
     read OSTM
     if [[ ${OSTM} == "1" ]]; then
-	    ./modules/opsec/evclean.sh
+	    bash /opt/sifter/modules/opsec/evclean.sh
     elif [[ ${OSTM} == "2" ]]; then
-	    ./modules/opsec/tDragon.sh
+	    bash /opt/sifter/modules/opsec/tDragon.sh
     elif [[ ${OSTM} == "3" ]]; then
 	    modules
     elif [[ ${OSTM} == "cd "* ]]; then
@@ -974,17 +953,17 @@ ip_Q(){
 #  Sorting Live from Dead  #
 ############################
 hostcheck(){
-    for name in `cat files/host_list.txt`
+    for name in `cat /opt/sifter/files/host_list.txt`
 
     	    do
     	        xterm -e ping -c 1 $name
     	            if [[ $? == 0 ]]; then
     	                echo -e "${LP}======================================================"
-    	                echo -e "${LP} ${name} Alive ${NC}" && echo ${name} >> files/pingtest_raw.pass
+    	                echo -e "${LP} ${name} Alive ${NC}" && echo ${name} >> /opt/sifter/files/pingtest_raw.pass
     	                echo -e "${LP}======================================================${NC}"
     	            else
     	                echo -e "${RED}====================================================="
-    	                echo -e "${RED} ${name} Dead ${NC}" && echo ${name} >> files/pingtest_raw.fail
+    	                echo -e "${RED} ${name} Dead ${NC}" && echo ${name} >> /opt/sifter/files/pingtest_raw.fail
     	                echo -e "${RED}=====================================================${NC}"
     	            fi
     	    done
@@ -1001,13 +980,13 @@ check_hosts(){
         kdialog --textinputbox "Please add an appropriate target first!" > /opt/sifter/files/host_list.txt
     fi
     if [[ -f 'files/pingtest_raw.pass' ]]; then
-    	    rm files/pingtest_raw.pass
+    	    rm /opt/sifter/files/pingtest_raw.pass
     fi
     if [[ -f 'files/pingtest.pass' ]]; then
-        rm files/pingtest.pass
+        rm /opt/sifter/files/pingtest.pass
     fi
     if [[ -f 'files/pingtest_pass.txt' ]]; then
-        rm files/pingtest_pass.txt
+        rm /opt/sifter/files/pingtest_pass.txt
     fi
 
     hostcheck | tee >(zenity --width=200 --height=100 \
@@ -1209,7 +1188,7 @@ proxysystem(){
     	${_zenity} --width=350 --height=500  \
 	           --title "AnonSurf StartUp Log" \
 	           --text-info --filename="${_out}"
-         echo "YES" > $USER/.config/.anon_status
+         echo "YES" > /home/$USER/.config/.anon_status
 
 
     elif [[ ${proxyO} == "Stop" ]]; then
@@ -1222,7 +1201,7 @@ proxysystem(){
         ${_zenity} --width=350 --height=500  \
 	         --title "AnonSurf ShutDown Log" \
 	         --text-info --filename="${_out}"
-          echo "NO" > $USER/.config/.anon_status
+          echo "NO" > /home/$USER/.config/.anon_status
     else
         menu
     fi
@@ -1292,7 +1271,7 @@ modules(){
             modules
         fi
     elif [[ ${MMOP} == "17" ]]; then
-	    bash info/tool_check.sh
+	    bash /opt/sifter/info/tool_check.sh
     elif [[ ${MMOP} == "18" ]]; then
 	    menu
     elif [[ ${MMOP} == "19" ]]; then
@@ -1324,9 +1303,10 @@ modules(){
 #   Menu   #
 ############
 menu(){
+    cd /opt/sifter
     echo -e "${INV}${LGRY}"
-    python3 extras/ban.py
-    python3 extras/ban2.py
+    python3 /opt/sifter/extras/ban.py
+    python3 /opt/sifter/extras/ban2.py
     arg=$1
     ASTAT=$(cat /home/$USER/.config/.anon_status)   
     echo -e " ${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
@@ -1339,7 +1319,7 @@ menu(){
     echo -e "\n =============================#?: "
     read MNOP
     if [[ ${MNOP} == "1" ]]; then                   # Check Hosts
-	    TARLIST=$(cat files/host_list.txt | grep "eg. target.com")
+	    TARLIST=$(cat /opt/sifter/files/host_list.txt | grep "eg. target.com")
         if [[ ${TARLIST} == "eg. target.com" ]]; then
             rm /opt/sifter/files/host_list.txt
             touch /opt/sifter/files/host_list.txt
@@ -1361,7 +1341,7 @@ menu(){
     elif [[ ${MNOP} == "6" ]]; then                 # Update
         update
     elif [[ ${MNOP} == "7" ]]; then                 # Quit
-        ASTAT=$(cat $USER/.config/.anon_status)
+        ASTAT=$(cat /home/$USER/.config/.anon_status)
         if [[ ${ASTAT} == "YES" ]]; then
             echo -e "\n    ================================================" 
             echo -e "${ORNG}[${RED}!${ORNG}] ${LGRY}System Proxy is still active..."
@@ -1389,17 +1369,17 @@ menu(){
 # Update Arg #
 ##############
 up_arg(){
-    echo $1 >> temp.log
-    echo $2 >> temp.log
-    echo $3 >> temp.log
-    echo $4 >> temp.log
-    echo $5 >> temp.log
-    echo $6 >> temp.log
-    echo $7 >> temp.log
-    echo $8 >> temp.log
-    echo $9 >> temp.log
+    echo $1 >> /opt/sifter/temp.log
+    echo $2 >> /opt/sifter/temp.log
+    echo $3 >> /opt/sifter/temp.log
+    echo $4 >> /opt/sifter/temp.log
+    echo $5 >> /opt/sifter/temp.log
+    echo $6 >> /opt/sifter/temp.log
+    echo $7 >> /opt/sifter/temp.log
+    echo $8 >> /opt/sifter/temp.log
+    echo $9 >> /opt/sifter/temp.log
 
-    for UFILES in `cat temp.log`
+    for UFILES in `cat /opt/sifter/temp.log`
        	        do
     	            rm ${LPATH}${UFILES}
                 done
@@ -1408,18 +1388,17 @@ up_arg(){
 update(){
     sudo chown $USER:$USER -R /opt/sifter
     cd /opt/sifter
-    mv sifter sifter_g
     echo -e "${YLW}"
     figlet -f mini "Checking for updates"
     echo -e "${NC}"
    
     echo -e "${YLW}##########################"                                                    	########################
-    echo -e "${YLW}# ${ORNG}Installed Version :${LP} 10 ${YLW}#${NC}"                                   ##    VERSION INFO    ##
-    echo -e "${YLW}# ${ORNG} Incoming Revision: ${LP}2  ${YLW}#"                                        ##    UPDATE CHECK    ##
+    echo -e "${YLW}# ${ORNG}Installed Version :${LP} 10g ${YLW}#${NC}"                                   ##    VERSION INFO    ##
+    #echo -e "${YLW}# ${ORNG} Incoming Revision: ${LP}2  ${YLW}#"                                        ##    UPDATE CHECK    ##
     echo -e "${YLW}##########################${NC}"                                               	########################
 
     if [[ -f '/opt/sifter/modules/exmods/fuzzydander.sh' ]]; then
-    	sudo mv modules/exmods/fuzzydander.sh modules/exmods/fuzzyd.sh
+    	sudo mv /opt/sifter/modules/exmods/fuzzydander.sh /opt/sifter/modules/exmods/fuzzyd.sh
     fi
     git fetch
     VER=$(git pull)
@@ -1427,9 +1406,6 @@ update(){
         echo -e "${ORNG}"
         figlet -f mini "Up to date."
         echo -e "${NC}"
-	if [[ -f "sifter_g" ]]; then
-		mv sifter_g sifter
-	fi
     else
         sleep 5
 	    echo -e "${W}Are there pull conflicts with files?(${YLW}y/n${W})${NC}"
@@ -1449,9 +1425,6 @@ update(){
         ##########################
         echo -e "${URED}Would you like to check for new tools or tool updates?(y/n)${NC}"
         read -r FUP
-	if [[ -f "sifter_g" ]]; then
-		mv sifter_g sifter
-	fi
         if [[ ${FUP} == "y" ]]; then
             sudo chmod +x install.sh
             bash install.sh
@@ -1595,7 +1568,7 @@ while getopts "a:WndwirmeopcvRuhI" options
 
         m)
             echo -e "${INV}${LGRY}"
-            python3 extras/ban.py
+            python3 /opt/sifter/extras/ban.py
             echo -e "${RED}"
             figlet -f mini "Modules"
             echo -e "${NC}"

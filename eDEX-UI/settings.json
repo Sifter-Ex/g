@@ -1,6 +1,6 @@
 {
     "shell": "bash /usr/sbin/sifter",
-    "cwd": "/opt/sifter/results",
+    "cwd": "/opt/sifter",
     "keyboard": "en-US",
     "theme": "matrix",
     "termFontSize": 15,
