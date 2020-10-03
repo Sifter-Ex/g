@@ -92,7 +92,8 @@ cred_mods(){
 	echo -e "\n ${ORNG}1.${W} theHarvester          ${ORNG}4.${W} CredNinja ${NC}"
 	echo -e " ${ORNG}2.${W} Osmedeus		  ${ORNG}5.${W} OSINT-Framework ${NC}"
 	echo -e " ${ORNG}3.${W} ReconSpider           ${ORNG}6.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    	echo -e " ${W}"
+    	echo -n " =============================#?: "
 	read CMM
 	if [[ ${CMM} == "1" ]]; then
 		bash /opt/sifter/modules/credmods/harvester.sh
@@ -136,7 +137,8 @@ phone_mods(){
 	echo -e " ${ORNG}3.${W} Maryam      ${ORNG}8.${W} DeadTrap ${NC}"
 	echo -e " ${ORNG}4.${W} xRay        ${ORNG}9.${W} iKy ${NC}"
 	echo -e " ${ORNG}5.${W} Email2Phone ${ORNG}10.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    	echo -e " ${W}"
+    	echo -n " =============================#?: "
 	read PMM
 	if [[ ${PMM} == "1" ]]; then
 		bash /opt/sifter/modules/credmods/seeker.sh
@@ -184,7 +186,8 @@ info_mods(){
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} Enterprise Focus           ${ORNG}3.${W} Back ${NC}"
 	echo -e " ${ORNG}2.${W} Individual Focus ${NC}"
-    echo -e "\n =============================#?: "
+    	echo -e " ${W}"
+    	echo -n " =============================#?: "
 	read IFM
 	if [[ ${IFM} == "1" ]]; then
 		cred_mods
@@ -221,7 +224,8 @@ honey_mods(){
 	echo -e "\n ${ORNG}1.${W} HoneyCaught       ${ORNG}4.${W} HFish ${NC}"
 	echo -e " ${ORNG}2.${W} SniffingBear	        ${ORNG}5.${W} Back ${NC}"
 	echo -e " ${ORNG}3.${W} HoneyTel	 ${NC}"
-	echo -e "\n =============================#?: "
+	echo -e " ${W}"
+	echo -n " =============================#?: "
 	read HPM
 	if [[ ${HPM} == "1" ]]; then
 		bash /opt/sifter/modules/honeymods/honeyc.sh
@@ -261,7 +265,8 @@ dom_mods(){
 	echo -e "\n ${ORNG}1.${W} DnsTwist      ${ORNG}4.${W} SubFinder ${NC}"
 	echo -e " ${ORNG}2.${W} Armory      ${ORNG}5.${W} Pulsar ${NC}"
 	echo -e " ${ORNG}3.${W} Spiderfoo7      ${ORNG}6.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    	echo -e " ${W}"
+    	echo -n " =============================#?: "
 	read DMM
 	if [[ ${DMM} == "1" ]]; then
 		bash /opt/sifter/modules/dommods/dnstwist.sh
@@ -303,7 +308,8 @@ net_mods(){
 	echo -e " ${ORNG}2.${W} Arp-Scan 		 ${ORNG}6.${W} Espionage ${NC}"
 	echo -e " ${ORNG}3.${W} AttackSurfaceMapper           ${ORNG}7.${W} Back ${NC}"
 	echo -e " ${ORNG}4.${W} wafw00f ${NC}"
-    echo -e "\n =============================#?: "
+    	echo -e " ${W}"
+    	echo -n " =============================#?: "
 	read NTM
 	if [[ ${NTM} == "1" ]]; then
 		bash /opt/sifter/modules/netmods/nmap.sh
@@ -357,7 +363,8 @@ vuln_mods(){
 	echo -e " ${ORNG}2.${W} RapidScan 		 ${ORNG}6.${W} F5 Big IP RCE ${NC}"
 	echo -e " ${ORNG}3.${W} Yuki-Chan          ${ORNG}7.${W} Back ${NC}"
 	echo -e " ${ORNG}4.${W} Katana-VFramework ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
 	read VNM
 	if [[ ${VNM} == "1" ]]; then
 		bash /opt/sifter/modules/vulnscanners/flan.sh
@@ -401,7 +408,8 @@ web_mods(){
 	echo -e " ${ORNG}2.${W} Nikto 		 ${ORNG}6.${W} Katana-DS ${NC}"
 	echo -e " ${ORNG}3.${W} BlackWidow           ${ORNG}7.${W} Zeus ${NC}"
 	echo -e " ${ORNG}4.${W} WordPress Tools     ${ORNG}8.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
 	read WEM
 	if [[ ${WEM} == "1" ]]; then
 		bash /opt/sifter/modules/webmods/dirb.sh
@@ -451,7 +459,8 @@ post_ex(){
 	echo -e " ${ORNG}3.${W} Omega           ${ORNG}8.${W} PowerHUB ${NC}"
 	echo -e " ${ORNG}4.${W} WinPwn 		 ${ORNG}9.${W} Back ${NC}"
 	echo -e " ${ORNG}5.${W} PowerSharp ${NC}"
-    	echo -e "\n =============================#?: "
+    	echo -e " ${W}"
+    echo -n " =============================#?: "
 	read PEX
 	if [[ ${PEX} == "1" ]]; then
 		echo -e "${W}The EoP module helps elevate user privileges on an exploited system${NC}"
@@ -510,7 +519,8 @@ pass_tools(){
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} Mentalist     ${ORNG}3.${W} Ciphey ${NC}"
 	echo -e " ${ORNG}2.${W} dCipher     ${ORNG}4.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
 	read PST
 	if [[ ${PST} == "1" ]]; then
 		echo -e "${YLW}Mentalist is a Graphical password creation tool"
@@ -548,7 +558,8 @@ exframes(){
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} Metasploit           ${ORNG}3.${W} FuzzyDander ${NC}"
 	echo -e " ${ORNG}2.${W} Thoron 		 ${ORNG}4.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
 	read EXF
 	if [[ ${EXF} == "1" ]]; then
 		echo -e "${YLW}This will launch Metasploit in xterm, to allow continuous usage of Sifter\nif you are unable to use xterm enter ${RED}n${YLW} else hit ${UBLUE}enter${NC}"
@@ -611,7 +622,8 @@ ex_mods(){
 	echo -e " ${ORNG}2.${W} BruteForcing 		 ${ORNG}6.${W} Exploitation Frameworks ${NC}"
 	echo -e " ${ORNG}3.${W} TigerShark           ${ORNG}7.${W} Post-Exploitation ${NC}"
 	echo -e " ${ORNG}4.${W} Web Exploiters			${ORNG}8.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
 	read EXTP
 	if [[ ${EXTP} == "1" ]]; then
 		echo -e "${YLW}These tools are used to exploit MicroSoft systems${NC}"
@@ -663,7 +675,8 @@ bruters(){
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} BruteDUM           ${ORNG}3.${W} Back ${NC}"
 	echo -e " ${ORNG}2.${W} WBruter ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
 	read BTS
 	if [[ ${BTS} == "1" ]]; then
 		echo -e "${YLW}BruteDUM is a bruteforcing tool that consists of Medusa, nCrack, Hydra${NC}"
@@ -699,7 +712,8 @@ search_tools(){
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} ShodanSploit           ${ORNG}3.${W} Back ${NC}"
 	echo -e " ${ORNG}2.${W} FindSploit ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
 	read SST
 	if [[ ${SST} == "1" ]]; then
 		echo -e "${YLW}ShodanSploit allows for shodan searches to be done quickly from the terminal${NC}"
@@ -737,7 +751,8 @@ ms_tools(){
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} ActiveReign           ${ORNG}3.${W} SMBGhost ${NC}"
     echo -e " ${ORNG}2.${W} iSpy           ${ORNG}4.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read MST
     if [[ ${MST} == "1" ]]; then
 	    echo -e "${YLW}ActiveReign is a LDAP Network-Attack toolkit${NC}"
@@ -779,7 +794,8 @@ ddos(){
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} Dark-Star           ${ORNG}3.${W} UFONet ${NC}"
     echo -e " ${ORNG}2.${W} Impulse           ${ORNG}4.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read DDS
     if [[ ${DDS} == "1" ]]; then
 	    bash /opt/sifter/modules/exmods/dark_star.sh
@@ -816,7 +832,8 @@ routertools(){
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} MkCheck           ${ORNG}3.${W} Airgeddon ${NC}"
     echo -e " ${ORNG}2.${W} Routersploit        ${ORNG}4.${W} Back ${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read RTT
     if [[ ${RTT} == "1" ]]; then
 	    cd /opt/MkCheck
@@ -856,7 +873,8 @@ webex(){
     echo -e "\n ${ORNG}1.${W} NekoBot       ${ORNG}4.${W} VulnX ${NC}"
     echo -e " ${ORNG}2.${W} DDoS        ${ORNG}5.${W} Back ${NC}"
     echo -e " ${ORNG}3.${W} xShock${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read WBX
     if [[ ${WBX} == "1" ]]; then
 	    echo -e "${YLW}NekoBot is a Web-Shell exploitation framework${NC}"
@@ -899,7 +917,8 @@ webapps(){
     echo -e "\n ${ORNG}1.${W} Sitadel       ${ORNG}4.${W} OneFind${NC}"
     echo -e " ${ORNG}2.${W} AapFinder       ${ORNG}5.${W} reNgine{NC}"
     echo -e " ${ORNG}3.${W} BFAC        ${ORNG}6.${W} Back${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read WAS
     if [[ ${WAS} == "1" ]]; then
 	    bash /opt/sifter/modules/webapps/sitadel.sh
@@ -940,7 +959,8 @@ xssmods(){
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} XSS-Strike        ${ORNG}3.${W} finDOM-XSS${NC}"
     echo -e "${ORNG}2.${W} XSS-Freak        ${ORNG}4.${W} Back${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read XSS
     if [[ ${XSS} == "1" ]]; then
 	    bash /opt/sifter/modules/xss_sql/xsstrike.sh
@@ -977,7 +997,8 @@ sqlmods(){
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} WhiteWidow        ${ORNG}2.${W} V3n0M-Scanner${NC}"
     echo -e " ${ORNG}3.${W} Back${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read SQLi
     if [[ ${SQLi} == "1" ]]; then
 	    bash /opt/sifter/modules/xss_sql/whitewidow.sh
@@ -1012,7 +1033,8 @@ xss_sql_mods(){
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} Cross-Site Scripting      ${ORNG}2.${W} SQLinjection${NC}"
     echo -e " ${ORNG}3.${W} Back${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read XSQL
     if [[ ${XSQL} == "1" ]]; then
 	    xssmods
@@ -1050,7 +1072,8 @@ opsec(){
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} EventCleaner               ${ORNG}2.${W} Threat Dragon${NC}"
     echo -e " ${ORNG}3.${W} Back${NC}"
-    echo -e "\n =============================#?: "
+    echo -e " ${W}"
+    echo -n " =============================#?: "
     read OSTM
     if [[ ${OSTM} == "1" ]]; then
 	    bash /opt/sifter/modules/opsec/evclean.sh
@@ -1367,7 +1390,7 @@ modules(){
     echo -e " ${ORNG}9.${W} WebApp Scanning                 ${W}19.${W} Quit${NC}"
     echo -e " ${ORNG}10.${W} Operational Security & Threat Analysis${NC}"
     echo -e " ${W}"
-    echo -e " ==================================#?: "
+    echo -n " =============================#?: "
     read MMOP
     if [[ ${MMOP} == "1" ]]; then
 	    info_mods
@@ -1460,7 +1483,7 @@ menu(){
     echo -e " ${ORNG}3.${W} Module Menu               ${ORNG}7.${W} Quit${NC}"
     echo -e " ${ORNG}4.${W} Anonymization${NC}"
     echo -e " ${W}"
-    echo -e " =============================#?: "
+    echo -n " =============================#?: "
     read -r MNOP
     if [[ ${MNOP} == "1" ]]; then                   # Check Hosts
 	    TARLIST=$(cat /opt/sifter/files/host_list.txt | grep "eg. target.com")
