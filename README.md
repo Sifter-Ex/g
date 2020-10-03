@@ -1,4 +1,4 @@
-<img align="left" src="https://img.shields.io/badge/Author-s1l3nt78-blueviolet"><a href="https://www.codefactor.io/repository/github/s1l3nt78/gSifter/badge/g-ex"><img align="right" src="https://www.codefactor.io/repository/github/s1l3nt78/gSifter/badge/g-ex" alt="CodeFactor" /></a><br/>
+<img align="left" src="https://img.shields.io/badge/Author-s1l3nt78-blueviolet"><a href="https://www.codefactor.io/repository/github/s1l3nt78/sifter"><img align="right" src="https://www.codefactor.io/repository/github/s1l3nt78/sifter/badge" alt="CodeFactor" /></a><br/>
 <p align="center"><img align="center" src="https://img.shields.io/badge/-The_Dead_Bunny_Collective-green"></p>
 <br />
 <p align="center">
@@ -10,9 +10,7 @@
 <br>
 	<img align="center" src="https://img.shields.io/badge/@Codename:-Gemin1-yellowgreen"><br />
 	<img align="center" src="https://img.shields.io/badge/Version-10-red">
-	<img align="center" src="https://img.shields.io/badge/Revision-3-green">
-<br>
-	<img align="center" src="https://img.shields.io/badge/Extention-g-orange">
+	<img align="center" src="https://img.shields.io/badge/Revision-G-green">
 </p>
 
 # *gSifter*
@@ -26,31 +24,57 @@
 
 ---------------------------------------------------------------------------------------------------------------------
 
-# Release (Extention Only)
+# Release
 
-	@Codename : g
-	@Extention: GUI Overlay
-	@Version  : Alpha (Experimental)
-	
-<em>[<strong>Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10.zip"><strong>here</strong></a></em>
+	@Codename: Gemin1
+	@Version : 10g
+
+<br>
+<em>[<strong>Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10g.zip"><strong>here</strong></a></em>
 <br />
-<em>[<strong>Gemin1's</strong>] latest .deb package is also available for download from <a href="https://github.com/s1l3nt78/sifter/releases/download/v10/sifter_10-r1.deb"><strong>here</strong></a></em>
+<em>[<strong>Gemin1's</strong>] latest .deb package is also available for download from <a href="https://github.com/s1l3nt78/sifter/releases/download/v10g/sifter_10g.deb"><strong>here</strong></a></em>
 <br />
 <em>Older Releases can be found <a href="https://github.com/s1l3nt78/sifter/archive/"><strong>here</strong></a></em>
 <br>
 <br>
-<em>If you already have sifter installed you can just checkout the extention to install it along side exsiting sifter
-<br /></em> Extention Instructions below
-<br />
-<br />
 
 ---------------------------------------------------------------------------------------------------------------------
 
 # Extentions
 
 <strong>Sifter Add-On Extentions</strong>
-- g - Sifter's <em>g</em> extention gives a GUI overlay
+- <a href="https://github.com/s1l3nt78/gSifter">g</a> - Sifter's <em>g</em> extention gives a GUI overlay
 <br />	'--> Built on top of <a href="https://github.com/GitSquared/edex-ui">eDEX-UI</a>
+
+---------------------------------------------------------------------------------------------------------------------
+
+# Additions:
+<p><em>
+	_<strong>Version:</strong> 10 _|_ <strong>Revision:</strong> 3_<br />
+- <a style="color: #729e1b" href="#">HFish</a> - A most effective HoneyPot System.<br />
+- <a style="color: #729e1b" href="#">EventCleaner</a> - EventLog Cleaner for Windows, with some other useful functionality.<br />
+- <a style="color: #729e1b" href="#">SubDover</a> - MultiThreaded Subdomain Takeover Vulnerability Scanner.<br />
+- <a style="color: #729e1b" href="#">Katana-DS (Dork Scanner)</a> - Google Hacking/Dorking with Tor support.<br />
+- <a style="color: #729e1b" href="#">Threat Dragon</a> - Threat Modelling framework.<br />
+- <a style="color: #729e1b" href="#">Ciphey</a> - Automated decryption/decoding/cracking tool using language processing<br /> &emsp;&emsp; & artificial intelligence.<br />
+<br />
+- <strong><em>Cross-Site Scripting & SQLinjection</em></strong><br />
+- <a style="color: #729e1b" href="#">WhiteWidow</a> - Automated SQLinjection Vulnerability Scanner.<br />
+- <a style="color: #729e1b" href="#">V3n0M-Scanner</a> - SQLi, XSS & LFI/RFI Vuln Scanner.<br />
+</em><br />
+ </p>
+
+---------------------------------------------------------------------------------------------------------------------
+
+# Removed
+
+- Omega's repo has been removed, therefore unavailable for new clones.
+<br/> If you already had omegas repo, you will still be able to use this module though.
+
+- DeadTrap's repo has been removed, therefore unavailable for new clones.
+<br /> If you already had DeadTraps repo, you will still be able to use this module though.
+
+- SayDog has been removed due to being a program meant mainly for termux.
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -77,8 +101,6 @@ through to get the general idea. Most modules are explained along with demos of 
 		    - Ubuntu
 		    - Linux (any distro)
 		    - Windows (Linux Subsystem with Docker and VcXsrc installed correctly - for xterm use)
-	
-	This extention works on all systems but REQUIRES a working xServer
 		    
 Works on windows with linux-subsystem but please ensure docker is properly installed and configured, <br /> 
 following the instructions from <a href="https://docker.io">docker website</a><br />
@@ -98,38 +120,18 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 # Installation:
 	
-	# gSifter (Full Package | Deb)
-	# gSifter Installation (Deb package)
-	To install sifter run one of the following commands below.
 	[!] For oneliner install (Deb Package), copy and paste the following code into a terminal:
 	*
-	$ wget https://github.com/s1l3nt78/gSifter/releases/download/v10_g/gSifter_v10_full.deb && sudo dpkg -i gSifter_v10_full.deb && gSifter
+	$ wget https://github.com/s1l3nt78/sifter/releases/download/v10_r3/sifter_10g.deb && sudo dpkg -i sifter_10g.deb && sifter
 	
-	-----------------------------------------------------------------------------------------------------------------
-	# gSifter (Full Package | Source)
-	[!] The main branch is not default so MUST be specified for full package
-	*
-	$ git clone --branch main https://github.com/s1l3nt78/gSifter
-	*
-	$ cd gSifter
-	*
-	$ bash install.sh
 	
-	-----------------------------------------------------------------------------------------------------------------
-	-----------------------------------------------------------------------------------------------------------------
-	
-	# gSifter (Extention Only | Source)
-	# gSifter Installation (OneLiner | Extention Only)
 	[!] For oneliner install (source), copy and paste the following into a terminal:
 	*
-	$ git clone https://github.com/s1l3nt78/gSifter.git && cd gSifter && bash install.sh
-
-	------------------------------------------------------------------------------------------------------------------
+	$ git clone https://github.com/s1l3nt78/sifter.git && cd sifter && bash install.sh
 	
-	# gSifter (Extention Only | Deb Package)
-	[!] To just install the extention (if sifter is already installed), run the command below.
+	[!] To install the g extention, copy and paste the following into a terminal:
 	*
-	$ wget https://github.com/s1l3nt78/gSifter/releases/download/v10_g/gSifter_v10_g-ext.deb && sudo dpkg -i gSifter_v10_g-ext.deb && gSifter
+	$ git clone --branch g-ex https://github.com/s1l3nt78/gSifter && cd gSifter && bash install-ex.sh && gSifter
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -140,7 +142,14 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 <img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
 </p>
 
---------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+
+# Extentions
+
+<strong>Sifter Add-On Extentions</strong>
+- <a href="https://github.com/s1l3nt78/gSifter">g</a> - Sifter's <em>g</em> extention gives a GUI overlay
+
+---------------------------------------------------------------------------------------------------------------------
 
 # Modules:
 
