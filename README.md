@@ -135,12 +135,12 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 ---------------------------------------------------------------------------------------------------------------------
 
-<h2>Menu:</h2>
+<h2>Main GUI Screen:</h2>
 <p>
-<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/anon.png">
-	<br />
+<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/.vs/main.png">
+<!--	<br />
 <img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
-</p>
+--></p>
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -320,9 +320,9 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 ---------------------------------------------------------------------------------------------------------------------
 
-<br />
+<br /><!--
 <img align="middle" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/help.png">
-<br />
+--><br />
 
 ---------------------------------------------------------------------------------------------------------------------
 
