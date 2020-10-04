@@ -48,6 +48,15 @@
 
 ---------------------------------------------------------------------------------------------------------------------
 
+# Main GUI Screen:
+<p>
+<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/.vs/main.png">
+<!--	<br />
+<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
+--></p>
+
+----------------------------------------------------------------------------------------------------------------------
+
 # Additions:
 <p><em>
 	_<strong>Version:</strong> 10 _|_ <strong>Revision:</strong> 3_<br />
@@ -134,15 +143,6 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	$ git clone --branch g-ex https://github.com/s1l3nt78/gSifter && cd gSifter && bash install-ex.sh && gSifter
 
 ---------------------------------------------------------------------------------------------------------------------
-
-<h2>Main GUI Screen:</h2>
-<p>
-<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/.vs/main.png">
-<!--	<br />
-<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
---></p>
-
-----------------------------------------------------------------------------------------------------------------------
 
 # Extentions
 
