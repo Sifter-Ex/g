@@ -749,7 +749,7 @@ ms_tools(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-    echo -e "\n ${ORNG}1.${W} ActiveReign           ${ORNG}3.${W} SMBGhost ${NC}"
+    echo -e "\n ${ORNG}1.${W} ActiveReign    ${ORNG}3.${W} SMBGhost ${NC}"
     echo -e " ${ORNG}2.${W} iSpy           ${ORNG}4.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
