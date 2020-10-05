@@ -958,7 +958,8 @@ xssmods(){
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} XSS-Strike        ${ORNG}3.${W} finDOM-XSS${NC}"
-    echo -e "${ORNG}2.${W} XSS-Freak        ${ORNG}4.${W} Back${NC}"
+    echo -e "${ORNG}2.${W} XSS-Freak        ${ORNG}4.${W} XSS-Loader ${NC}"
+    echo -e "${ORNG}5.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
     read XSS
@@ -969,6 +970,8 @@ xssmods(){
     elif [[ ${XSS} == "3" ]]; then
 	    bash /opt/sifter/modules/xss_sql/findom.sh
     elif [[ ${XSS} == "4" ]]; then
+        bash /opt/sifter/modules/xss_sql/xssloader.sh
+    elif [[ ${XSS} == "5" ]]; then
 	    modules
     elif [[ ${XSS} == "cd "* ]]; then
 	    DCK=$(pwd)
