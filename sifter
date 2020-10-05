@@ -132,11 +132,11 @@ phone_mods(){
   ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-	echo -e "\n ${ORNG}1.${W} Seeker    ${ORNG}6.${W} ODIN ${NC}"
+	echo -e "\n ${ORNG}1.${W} Seeker          ${ORNG}6.${W} ODIN ${NC}"
 	echo -e " ${ORNG}2.${W} Sherlock	    ${ORNG}7.${W} CardPwn ${NC}"
-	echo -e " ${ORNG}3.${W} Maryam      ${ORNG}8.${W} DeadTrap ${NC}"
-	echo -e " ${ORNG}4.${W} xRay        ${ORNG}9.${W} iKy ${NC}"
-	echo -e " ${ORNG}5.${W} Email2Phone ${ORNG}10.${W} Back ${NC}"
+	echo -e " ${ORNG}3.${W} Maryam          ${ORNG}8.${W} DeadTrap ${NC}"
+	echo -e " ${ORNG}4.${W} xRay            ${ORNG}9.${W} iKy ${NC}"
+	echo -e " ${ORNG}5.${W} Email2Phone     ${ORNG}10.${W} Back ${NC}"
     	echo -e " ${W}"
     	echo -n " =============================#?: "
 	read PMM
@@ -221,8 +221,8 @@ honey_mods(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-	echo -e "\n ${ORNG}1.${W} HoneyCaught       ${ORNG}4.${W} HFish ${NC}"
-	echo -e " ${ORNG}2.${W} SniffingBear	        ${ORNG}5.${W} Back ${NC}"
+	echo -e "\n ${ORNG}1.${W} HoneyCaught           ${ORNG}4.${W} HFish ${NC}"
+	echo -e " ${ORNG}2.${W} SniffingBear          ${ORNG}5.${W} Back ${NC}"
 	echo -e " ${ORNG}3.${W} HoneyTel	 ${NC}"
 	echo -e " ${W}"
 	echo -n " =============================#?: "
@@ -262,8 +262,8 @@ dom_mods(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-	echo -e "\n ${ORNG}1.${W} DnsTwist      ${ORNG}4.${W} SubFinder ${NC}"
-	echo -e " ${ORNG}2.${W} Armory      ${ORNG}5.${W} Pulsar ${NC}"
+	echo -e "\n ${ORNG}1.${W} DnsTwist        ${ORNG}4.${W} SubFinder ${NC}"
+	echo -e " ${ORNG}2.${W} Armory          ${ORNG}5.${W} Pulsar ${NC}"
 	echo -e " ${ORNG}3.${W} Spiderfoo7      ${ORNG}6.${W} Back ${NC}"
     	echo -e " ${W}"
     	echo -n " =============================#?: "
@@ -304,9 +304,9 @@ net_mods(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-	echo -e "\n ${ORNG}1.${W} nMap           ${ORNG}5.${W} aSnip ${NC}"
-	echo -e " ${ORNG}2.${W} Arp-Scan 		 ${ORNG}6.${W} Espionage ${NC}"
-	echo -e " ${ORNG}3.${W} AttackSurfaceMapper           ${ORNG}7.${W} Back ${NC}"
+	echo -e "\n ${ORNG}1.${W} nMap                    ${ORNG}5.${W} aSnip ${NC}"
+	echo -e " ${ORNG}2.${W} Arp-Scan 		    ${ORNG}6.${W} Espionage ${NC}"
+	echo -e " ${ORNG}3.${W} AttackSurfaceMapper     ${ORNG}7.${W} Back ${NC}"
 	echo -e " ${ORNG}4.${W} wafw00f ${NC}"
     	echo -e " ${W}"
     	echo -n " =============================#?: "
@@ -359,8 +359,8 @@ vuln_mods(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-	echo -e "\n ${ORNG}1.${W} Flan              ${ORNG}5.${W} Nettacker ${NC}"
-	echo -e " ${ORNG}2.${W} RapidScan 		 ${ORNG}6.${W} F5 Big IP RCE ${NC}"
+	echo -e "\n ${ORNG}1.${W} Flan               ${ORNG}5.${W} Nettacker ${NC}"
+	echo -e " ${ORNG}2.${W} RapidScan 	       ${ORNG}6.${W} F5 Big IP RCE ${NC}"
 	echo -e " ${ORNG}3.${W} Yuki-Chan          ${ORNG}7.${W} Back ${NC}"
 	echo -e " ${ORNG}4.${W} Katana-VFramework ${NC}"
     echo -e " ${W}"
@@ -404,10 +404,10 @@ web_mods(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-	echo -e "\n ${ORNG}1.${W} Dirb              ${ORNG}5.${W} DorksEye ${NC}"
+	echo -e "\n ${ORNG}1.${W} Dirb                 ${ORNG}5.${W} DorksEye ${NC}"
 	echo -e " ${ORNG}2.${W} Nikto 		 ${ORNG}6.${W} Katana-DS ${NC}"
 	echo -e " ${ORNG}3.${W} BlackWidow           ${ORNG}7.${W} Zeus ${NC}"
-	echo -e " ${ORNG}4.${W} WordPress Tools     ${ORNG}8.${W} Back ${NC}"
+	echo -e " ${ORNG}4.${W} WordPress Tools      ${ORNG}8.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
 	read WEM
@@ -518,7 +518,7 @@ pass_tools(){
 	echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} Mentalist     ${ORNG}3.${W} Ciphey ${NC}"
-	echo -e " ${ORNG}2.${W} dCipher     ${ORNG}4.${W} Back ${NC}"
+	echo -e " ${ORNG}2.${W} dCipher       ${ORNG}4.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
 	read PST
@@ -620,8 +620,8 @@ ex_mods(){
 	echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
 	echo -e "\n ${ORNG}1.${W} Microsoft Explicit           ${ORNG}5.${W} Search for Exploits ${NC}"
 	echo -e " ${ORNG}2.${W} BruteForcing 		 ${ORNG}6.${W} Exploitation Frameworks ${NC}"
-	echo -e " ${ORNG}3.${W} TigerShark           ${ORNG}7.${W} Post-Exploitation ${NC}"
-	echo -e " ${ORNG}4.${W} Web Exploiters			${ORNG}8.${W} Back ${NC}"
+	echo -e " ${ORNG}3.${W} TigerShark                   ${ORNG}7.${W} Post-Exploitation ${NC}"
+	echo -e " ${ORNG}4.${W} Web Exploiters		 ${ORNG}8.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
 	read EXTP
@@ -831,7 +831,7 @@ routertools(){
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} MkCheck           ${ORNG}3.${W} Airgeddon ${NC}"
-    echo -e " ${ORNG}2.${W} Routersploit        ${ORNG}4.${W} Back ${NC}"
+    echo -e " ${ORNG}2.${W} Routersploit      ${ORNG}4.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
     read RTT
@@ -915,8 +915,8 @@ webapps(){
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} Sitadel       ${ORNG}4.${W} OneFind${NC}"
-    echo -e " ${ORNG}2.${W} AapFinder       ${ORNG}5.${W} reNgine{NC}"
-    echo -e " ${ORNG}3.${W} BFAC        ${ORNG}6.${W} Back${NC}"
+    echo -e " ${ORNG}2.${W} AapFinder     ${ORNG}5.${W} reNgine{NC}"
+    echo -e " ${ORNG}3.${W} BFAC          ${ORNG}6.${W} Back${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
     read WAS
@@ -957,8 +957,8 @@ xssmods(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-    echo -e "\n ${ORNG}1.${W} XSS-Strike        ${ORNG}3.${W} finDOM-XSS${NC}"
-    echo -e "${ORNG}2.${W} XSS-Freak        ${ORNG}4.${W} XSS-Loader ${NC}"
+    echo -e "\n${ORNG}1.${W} XSS-Strike        ${ORNG}3.${W} finDOM-XSS${NC}"
+    echo -e "${ORNG}2.${W} XSS-Freak         ${ORNG}4.${W} XSS-Loader ${NC}"
     echo -e "${ORNG}5.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
@@ -1418,7 +1418,7 @@ modules(){
     elif [[ ${MMOP} == "11" ]]; then
 	    xss_sql_mods
     elif [[ ${MMOP} == "12" ]]; then
-	    passtools
+	    pass_tools
     elif [[ ${MMOP} == "13" ]]; then
 	    results
     elif [[ ${MMOP} == "14" ]]; then
