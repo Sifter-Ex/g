@@ -871,7 +871,7 @@ webex(){
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
     echo -e "\n ${ORNG}1.${W} NekoBot       ${ORNG}4.${W} VulnX ${NC}"
-    echo -e " ${ORNG}2.${W} DDoS        ${ORNG}5.${W} Back ${NC}"
+    echo -e " ${ORNG}2.${W} DDoS          ${ORNG}5.${W} Back ${NC}"
     echo -e " ${ORNG}3.${W} xShock${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
