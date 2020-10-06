@@ -1391,8 +1391,8 @@ modules(){
     echo -e " ${ORNG}7.${W} Router Tools                    ${BIGreen}17.${W} Check For Missing Tools${NC}"
     echo -e " ${ORNG}8.${W} Exploitation Tools              ${UBLUE}18.${NC}${W} Main Menu${NC}"
     echo -e " ${ORNG}9.${W} WebApp Scanning                 ${W}19.${W} Quit${NC}"
-    echo -e " ${ORNG}10.${W} Operational Security & Threat Analysis${NC}"
-    echo -e " ${W}"
+    echo -e " ${ORNG}10.${W} Operational Security ${NC}"
+    echo -e "     ${W}& Threat Analysis"
     echo -n " =============================#?: "
     read MMOP
     if [[ ${MMOP} == "1" ]]; then
