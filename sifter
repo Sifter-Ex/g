@@ -638,7 +638,7 @@ ex_mods(){
 	elif [[ ${EXTP} == "4" ]]; then
 		echo -e "${YLW}These tools are aimed at exploiting websites${NC}"
         sleep 3
-        web_tools
+        webex
 	elif [[ ${EXTP} == "5" ]]; then
 		echo -e "${YLW}These tools allow you to search to certain exploits or vulnerabilities${NC}"
         sleep 3
