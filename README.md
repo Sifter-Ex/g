@@ -57,36 +57,6 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
-# Additions:
-<p><em>
-	_<strong>Version:</strong> 10 _|_ <strong>Revision:</strong> 3_<br />
-- <a style="color: #729e1b" href="#">HFish</a> - A most effective HoneyPot System.<br />
-- <a style="color: #729e1b" href="#">EventCleaner</a> - EventLog Cleaner for Windows, with some other useful functionality.<br />
-- <a style="color: #729e1b" href="#">SubDover</a> - MultiThreaded Subdomain Takeover Vulnerability Scanner.<br />
-- <a style="color: #729e1b" href="#">Katana-DS (Dork Scanner)</a> - Google Hacking/Dorking with Tor support.<br />
-- <a style="color: #729e1b" href="#">Threat Dragon</a> - Threat Modelling framework.<br />
-- <a style="color: #729e1b" href="#">Ciphey</a> - Automated decryption/decoding/cracking tool using language processing<br /> &emsp;&emsp; & artificial intelligence.<br />
-<br />
-- <strong><em>Cross-Site Scripting & SQLinjection</em></strong><br />
-- <a style="color: #729e1b" href="#">WhiteWidow</a> - Automated SQLinjection Vulnerability Scanner.<br />
-- <a style="color: #729e1b" href="#">V3n0M-Scanner</a> - SQLi, XSS & LFI/RFI Vuln Scanner.<br />
-</em><br />
- </p>
-
----------------------------------------------------------------------------------------------------------------------
-
-# Removed
-
-- Omega's repo has been removed, therefore unavailable for new clones.
-<br/> If you already had omegas repo, you will still be able to use this module though.
-
-- DeadTrap's repo has been removed, therefore unavailable for new clones.
-<br /> If you already had DeadTraps repo, you will still be able to use this module though.
-
-- SayDog has been removed due to being a program meant mainly for termux.
-
----------------------------------------------------------------------------------------------------------------------
-
 # Overview
 
 Sifter is a osint, recon & vulnerability scanner. It combines a plethara of tools within different module sets in order to quickly perform recon tasks, check network firewalling, enumerate remote and local hosts, and scan for the 'blue' vulnerabilities within microsft and if unpatched, exploit them.  It uses tools like blackwidow and konan for webdir enumeration and attack surface mapping rapidly using ASM.
@@ -119,14 +89,6 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 ---------------------------------------------------------------------------------------------------------------------
 
-# NOTE!! 
-
- If a scan does not work correctly at first, remove web-protocol from target.
- <br>
- eg. <strong>target.com</strong> - instead of http://target.com
-
----------------------------------------------------------------------------------------------------------------------
-
 # Installation:
 	
 	[!] For oneliner install (Deb Package), copy and paste the following code into a terminal:
@@ -151,7 +113,7 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 ---------------------------------------------------------------------------------------------------------------------
 
-# Modules:
+# Sifter Modules:
 
 <strong>#Enterprise Information Gatherers</strong>
 - <a href="https://github.com/laramies/theHarvester">theHarvester</a><br />
