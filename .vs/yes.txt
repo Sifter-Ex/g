@@ -1,3 +1,1 @@
 # Beneign file to check for newer AppImage, or runtime script
-
-No
