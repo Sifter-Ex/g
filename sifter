@@ -1561,6 +1561,22 @@ up_arg(){
                 done
     rm /opt/sifter/temp.log
 }
+gexUpd(){
+	if [[ -f "/usr/sbin/gSifter" ]]; then
+		echo -e "${LP}Would you like to update the ${YLW}G ${LP}extention?(y/n)${NC}"
+		read GUP
+		if [[ ${GUP} == "y" ]]; then
+			GCHK=$(curl https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/.vs/yes.txt)
+			if [[ ${GCHK} == "404: Not Found" ]]; then
+				echo -e "${YLW}The ${RED}G ${YLW}extention is up-to-date${NC}"
+			else
+				wget https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/gSifter
+				wget https://github.com/s1l3nt78/gSifter/raw/g-ex/gSifter_eDEX-UI.AppImage
+				sudo mv gSifter -t /usr/sbin
+				chmod +x gSifter_eDEX-UI.AppImage
+				echo -e "${YLW}Your ${RED}G ${YLW}extention has been updated${NC}"
+			fi
+}
 update(){
     sudo chown $USER:$USER -R /opt/sifter
     cd /opt/sifter
@@ -1582,6 +1598,7 @@ update(){
         echo -e "${ORNG}"
         figlet -f mini "Up to date."
         echo -e "${NC}"
+	gexUpd
     else
         sleep 5
 	    echo -e "${W}Are there pull conflicts with files?(${YLW}y/n${W})${NC}"
@@ -1605,6 +1622,7 @@ update(){
             sudo chmod +x install.sh
             bash install.sh
         fi
+	gexUpd
         sudo cp /opt/sifter/sifter -t /usr/sbin
         sudo chown $USER:$USER /opt/sifter --recursive
         sudo chown $USER:$USER /usr/sbin/sifter
