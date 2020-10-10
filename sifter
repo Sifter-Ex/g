@@ -1576,6 +1576,8 @@ gexUpd(){
 				chmod +x gSifter_eDEX-UI.AppImage
 				echo -e "${YLW}Your ${RED}G ${YLW}extention has been updated${NC}"
 			fi
+        fi
+    fi
 }
 update(){
     sudo chown $USER:$USER -R /opt/sifter
@@ -1584,10 +1586,10 @@ update(){
     figlet -f mini "Checking for updates"
     echo -e "${NC}"
    
-    echo -e "${YLW}###########################"                                                    	########################
-    echo -e "${YLW}# ${ORNG}Installed Version :${LP} 10g ${YLW}#${NC}"                                   ##    VERSION INFO    ##
-    #echo -e "${YLW}# ${ORNG} Incoming Revision: ${LP}2  ${YLW}#"                                        ##    UPDATE CHECK    ##
-    echo -e "${YLW}###########################${NC}"                                               	########################
+    echo -e "${YLW}############################"                                                    	########################
+    echo -e "${YLW}# ${ORNG}Installed Version :${LP} 10.2 ${YLW}#${NC}"                                   ##    VERSION INFO    ##
+    echo -e "${YLW}# ${ORNG} Incoming Revision: ${LP}G  ${YLW}#"                                        ##    UPDATE CHECK    ##
+    echo -e "${YLW}############################${NC}"                                               	########################
 
     if [[ -f '/opt/sifter/modules/exmods/fuzzydander.sh' ]]; then
     	    sudo mv /opt/sifter/modules/exmods/fuzzydander.sh /opt/sifter/modules/exmods/fuzzyd.sh
