@@ -59,17 +59,8 @@
 
 # Overview
 
-Sifter is a osint, recon & vulnerability scanner. It combines a plethara of tools within different module sets in order to quickly perform recon tasks, check network firewalling, enumerate remote and local hosts, and scan for the 'blue' vulnerabilities within microsft and if unpatched, exploit them.  It uses tools like blackwidow and konan for webdir enumeration and attack surface mapping rapidly using ASM.
-<br>
-Gathered info is saved to the results folder, these output files can be easily parsed over to <a href="https://github.com/s1l3nt78/TigerShark">TigerShark</a> in order to be utilised within your campaign. Or compiled for a final report to wrap up a penetration test.
-<br>
-<br>
-<a href="https://www.youtube.com/watch?v=YU-LYLjyO6c&t=8s">Setup Video</a>
-<br>
-<a href="https://youtu.be/QgAfqbxqbK0">Demo Video</a> (of Version 6-7. Newer tools and modules arent covered) - Its long, but you can skip
-<br>
-through to get the general idea. Most modules are explained along with demos of a lot of the tools.
-<br>
+The G extension provides a GUI overlay to Sifter<br>
+For those who would like something a little extra and would prefer to not use soley the command-line.<br />
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -93,7 +84,7 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	
 	[!] For oneliner install (Deb Package), copy and paste the following code into a terminal:
 	*
-	$ wget https://github.com/s1l3nt78/sifter/releases/download/v10_r3/sifter_10g.deb && sudo dpkg -i sifter_10g.deb && sifter
+	$ wget https://github.com/s1l3nt78/sifter/releases/download/v10.2_G/sifter_10.2_G.deb && sudo dpkg -i sifter_10.2_G.deb && sifter
 	
 	
 	[!] For oneliner install (source), copy and paste the following into a terminal:
@@ -106,14 +97,13 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 
 ---------------------------------------------------------------------------------------------------------------------
 
-# Extentions
+# Sifter
+	
+Sifter can be found <a href="https://github.com/s1l3nt78/sifter">here</a>
 
-<strong>Sifter Add-On Extentions</strong>
-- <a href="https://github.com/s1l3nt78/gSifter">g</a> - Sifter's <em>g</em> extention gives a GUI overlay
+----------------------------------------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------
-
-# Sifter Modules:
+# Sifter's Modules:
 
 <strong>#Enterprise Information Gatherers</strong>
 - <a href="https://github.com/laramies/theHarvester">theHarvester</a><br />
