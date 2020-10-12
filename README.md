@@ -9,7 +9,7 @@
   	<img align="center" src="https://img.shields.io/github/stars/s1l3nt78/sifter">		  
 <br>
 	<img align="center" src="https://img.shields.io/badge/@Codename:-Gemin1-yellowgreen"><br />
-	<img align="center" src="https://img.shields.io/badge/Version-10-red">
+	<img align="center" src="https://img.shields.io/badge/Version-10.2-red">
 	<img align="center" src="https://img.shields.io/badge/Revision-G-green">
 </p>
 
@@ -43,14 +43,14 @@
 # Extentions
 
 <strong>Sifter Add-On Extentions</strong>
-- <a href="https://github.com/s1l3nt78/gSifter">g</a> - Sifter's <em>g</em> extention gives a GUI overlay
+- <a href="https://github.com/Sifter-Ext/g">g</a> - Sifter's <em>g</em> extention gives a GUI overlay
 <br />	'--> Built on top of <a href="https://github.com/GitSquared/edex-ui">eDEX-UI</a>
 
 ---------------------------------------------------------------------------------------------------------------------
 
 # Main GUI Screen:
 <p>
-<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/.vs/main.png">
+<img align="center" src="https://raw.githubusercontent.com/Sifter-Ext/g/g-ex/.vs/main.png">
 <!--	<br />
 <img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
 --></p>
@@ -93,7 +93,7 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	
 	[!] To install the g extention, copy and paste the following into a terminal:
 	*
-	$ git clone --branch g-ex https://github.com/s1l3nt78/gSifter && cd gSifter && bash install-ex.sh && gSifter
+	$ git clone --branch g-ex https://github.com/Sifter-Ext/g && cd g && bash install-ex.sh && gSifter
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -272,12 +272,6 @@ Sifter can be found <a href="https://github.com/s1l3nt78/sifter">here</a>
 
 ---------------------------------------------------------------------------------------------------------------------
 
-<br /><!--
-<img align="middle" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/help.png">
---><br />
-
----------------------------------------------------------------------------------------------------------------------
-
 # Other Projects
 <br />
 All information on projects in development can be found <a href="https://s1l3nt78.github.io">here</a>. 
@@ -288,6 +282,8 @@ For ideas or collaboration requests on future projects., contact details can be 
 <br />
 <br />
 <em>GitHub Pages can be found here.
+<br />
+- <a href="https://s1l3nt78.github.io/sifter">Sifter</a> = OSINT, Recon & Vulnerability Analysis Framework
 <br />
 - <a href="https://s1l3nt78.github.io/MkCheck">MkCheck</a> = MikroTik Router Exploitation Tool
 <br />
