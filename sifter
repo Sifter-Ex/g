@@ -70,6 +70,8 @@ usage() {                                    	  # Function: Print a help message
     echo -e "${RED}# ${ORNG}sifter ${YLW}-x${NC} Opens the Cross-Site Scripting & SQLinjection Module Menu"
 	echo -e "${RED}# ${ORNG}sifter ${YLW}-R${NC} Opens the results folder for viewing of files or photos"
     echo -e "${RED}# ${ORNG}sifter ${YLW}-u${NC} Checks for any updates on Github"
+    echo -e "${RED}# ${ORNG}sifter ${YLW}-qu${NC} Checks silently for updates and saves a log file under ${BIGreen}/opt/sifter/logs${NC}"
+    echo -e "${RED}# ${ORNG}sifter ${YLW}-quv${NC} Checks for updates in a seperate terminal with verbose output and saves a log file."
     echo -e "${RED}# ${ORNG}sifter ${LP}--stealth${NC} Starts sifter in ${LP}Anonymous${NC} mode"
     echo -e "${RED}# ${ORNG}sifter ${YLW}-I${NC} Opens the Module Information Menu"
 	echo -e "${RED}# ${ORNG}sifter ${YLW}-h${NC} This Help Menu" 1>&2
@@ -1561,24 +1563,29 @@ up_arg(){
                 done
     rm /opt/sifter/temp.log
 }
+
+##
+# G Extention Check/Update
+##
 gexUpd(){
 	if [[ -f "/usr/sbin/gSifter" ]]; then
-		echo -e "${LP}Would you like to update the ${YLW}G ${LP}extention?(y/n)${NC}"
-		read GUP
-		if [[ ${GUP} == "y" ]]; then
-			GCHK=$(curl https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/.vs/yes.txt)
-			if [[ ${GCHK} == "404: Not Found" ]]; then
-				echo -e "${YLW}The ${RED}G ${YLW}extention is up-to-date${NC}"
-			else
-				wget https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/gSifter
-				wget https://github.com/s1l3nt78/gSifter/raw/g-ex/gSifter_eDEX-UI.AppImage
-				sudo mv gSifter -t /usr/sbin
-				chmod +x gSifter_eDEX-UI.AppImage
-				echo -e "${YLW}Your ${RED}G ${YLW}extention has been updated${NC}"
-			fi
-        fi
+		GCHK=$(curl https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/.vs/yes.txt)
+		if [[ ${GCHK} == "404: Not Found" ]]; then
+			echo -e "${YLW}The ${RED}G ${YLW}extention is up-to-date${NC}"
+		else
+            echo -e "${YLW}Updating the ${RED}G ${YLW}extention ${NC}"
+			wget https://raw.githubusercontent.com/s1l3nt78/gSifter/g-ex/gSifter
+			wget https://github.com/s1l3nt78/gSifter/raw/g-ex/gSifter_eDEX-UI.AppImage
+			sudo mv gSifter -t /usr/sbin
+			chmod +x gSifter_eDEX-UI.AppImage
+			echo -e "${YLW}Your ${RED}G ${YLW}extention has been updated${NC}"
+		fi
     fi
 }
+
+##
+# Update Function
+##
 update(){
     sudo chown $USER:$USER -R /opt/sifter
     cd /opt/sifter
@@ -1587,8 +1594,8 @@ update(){
     echo -e "${NC}"
    
     echo -e "${YLW}############################"                                                    	########################
-    echo -e "${YLW}# ${ORNG}Installed Version :${LP} 10.2 ${YLW}#${NC}"                                   ##    VERSION INFO    ##
-    echo -e "${YLW}# ${ORNG} Incoming Revision: ${LP}G  ${YLW}#"                                        ##    UPDATE CHECK    ##
+    echo -e "${YLW}# ${ORNG}Installed Version :${LP} 10.2 ${YLW}#${NC}"                                 ##    VERSION INFO    ##
+    echo -e "${YLW}# ${ORNG} Incoming Revision: ${LP}G    ${YLW}#"                                      ##    UPDATE CHECK    ##
     echo -e "${YLW}############################${NC}"                                               	########################
 
     if [[ -f '/opt/sifter/modules/exmods/fuzzydander.sh' ]]; then
@@ -1633,6 +1640,9 @@ update(){
     fi
 }
 
+##
+# Check for Anonymous Start Option
+##
 if [[ ${STLTH} == "--stealth" ]]; then
     echo -e " ${W}===========================================${NC}"
     echo -e "${LP}Starting Sifter in ${URED}Anonymous${NC} ${LP}mode${NC}"
@@ -1642,6 +1652,30 @@ if [[ ${STLTH} == "--stealth" ]]; then
     menu
 fi
 
+##
+# Check for Tailed Update with Log
+##
+if [[ ${STLTH} == "-quv" ]]; then
+    DAY=$(date +%D)
+    TIME=$(date +%T)
+    update > /opt/sifter/logs/${DAY}_${TIME}_install.log &
+    xterm -e tail -f /opt/sifter/logs/${DAY}_${TIME}_install.log &
+    menu
+fi
+
+##
+# Check for Silent Update with Log
+##
+if [[ ${STLTH} == "-qu" ]]; then
+    DAY=$(date +%D)
+    TIME=$(date +%T)
+    update > /opt/sifter/logs/${DAY}_${TIME}_install.log &
+    menu
+fi
+
+##
+# Start-Up Runtime Arguments
+##
 while getopts "a:WndwirmeopcvRuhI" options
     do            	                                        # Loop: Get the next option;
     case "${options}" in                                	# use silent error checking;
