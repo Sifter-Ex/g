@@ -50,7 +50,7 @@
 
 # Main GUI Screen:
 <p>
-<img align="center" src="https://raw.githubusercontent.com/Sifter-Ext/g/g-ex/.vs/main.png">
+<img align="center" src="https://github.com/Sifter-Ext/g/raw/g-ex/.vs/main.png">
 <!--	<br />
 <img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/menu.png">
 --></p>
