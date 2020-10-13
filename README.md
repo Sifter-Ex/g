@@ -8,9 +8,9 @@
   	<img align="center" src="https://img.shields.io/github/forks/s1l3nt78/sifter">
   	<img align="center" src="https://img.shields.io/github/stars/s1l3nt78/sifter">		  
 <br>
-	<img align="center" src="https://img.shields.io/badge/@Codename:-Gemin1-yellowgreen"><br />
-	<img align="center" src="https://img.shields.io/badge/Version-10.2-red">
-	<img align="center" src="https://img.shields.io/badge/Revision-G-green">
+	<img align="center" src="https://img.shields.io/badge/@Codename:-g-yellowgreen"><br />
+	<img align="center" src="https://img.shields.io/badge/Version-1-red">
+	<img align="center" src="https://img.shields.io/badge/Revision-Alpha-green">
 </p>
 
 # *gSifter*
@@ -26,8 +26,8 @@
 
 # Release
 
-	@Codename: Gemin1
-	@Version : 10g
+	@Codename: g
+	@Version : Alpha
 
 <br>
 <em>[<strong>Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10g.zip"><strong>here</strong></a></em>
@@ -64,7 +64,7 @@ For those who would like something a little extra and would prefer to not use so
 
 ---------------------------------------------------------------------------------------------------------------------
 
-# Tested OS
+# Sifter's Tested OS
 
 	Working on: - Kali
 		    - Parrot
