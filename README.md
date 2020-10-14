@@ -30,9 +30,9 @@
 	@Version : Alpha
 
 <br>
-<em>[<strong>Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10g.zip"><strong>here</strong></a></em>
+<em>[<strong>Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10.2g.zip"><strong>here</strong></a></em>
 <br />
-<em>[<strong>Gemin1's</strong>] latest .deb package is also available for download from <a href="https://github.com/s1l3nt78/sifter/releases/download/v10g/sifter_10g.deb"><strong>here</strong></a></em>
+<em>[<strong>Gemin1's</strong>] latest .deb package is also available for download from <a href="https://github.com/s1l3nt78/sifter/releases/download/v10.2g/sifter_10.2_G.deb"><strong>here</strong></a></em>
 <br />
 <em>Older Releases can be found <a href="https://github.com/s1l3nt78/sifter/archive/"><strong>here</strong></a></em>
 <br>
@@ -84,7 +84,7 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	
 	[!] For oneliner install (Deb Package), copy and paste the following code into a terminal:
 	*
-	$ wget https://github.com/s1l3nt78/sifter/releases/download/v10.2_G/sifter_10.2_G.deb && sudo dpkg -i sifter_10.2_G.deb && sifter
+	$ wget https://github.com/s1l3nt78/sifter/releases/download/v10.2g/sifter_10.2_G.deb && sudo dpkg -i sifter_10.2_G.deb && sifter
 	
 	
 	[!] For oneliner install (source), copy and paste the following into a terminal:
@@ -93,7 +93,7 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	
 	[!] To install the g extention, copy and paste the following into a terminal:
 	*
-	$ git clone --branch g-ex https://github.com/Sifter-Ext/g && cd g && bash install-ex.sh && gSifter
+	$ git clone --branch g-ex https://github.com/Sifter-Ex/g && cd g && bash install-ex.sh && gSifter
 
 ---------------------------------------------------------------------------------------------------------------------
 
