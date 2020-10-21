@@ -9,8 +9,7 @@
   	<img align="center" src="https://img.shields.io/github/stars/s1l3nt78/sifter">		  
 <br>
 	<img align="center" src="https://img.shields.io/badge/@Codename:-g-yellowgreen"><br />
-	<img align="center" src="https://img.shields.io/badge/Version-1-red">
-	<img align="center" src="https://img.shields.io/badge/Revision-Alpha-green">
+	<img align="center" src="https://img.shields.io/badge/Version-Alpha-green">
 </p>
 
 # *G.Ex*
@@ -30,9 +29,9 @@
 	@Version : Alpha
 
 <br>
-<em>[<strong>Sifter | Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10.2g.zip"><strong>here</strong></a></em>
+<em>[<strong>Sifter | Gemin1's</strong>] latest release's zip package can be downloaded from <a href="https://github.com/s1l3nt78/sifter/archive/v10.4g.zip"><strong>here</strong></a></em>
 <br />
-<em>[<strong>Sifter | Gemin1's</strong>] latest .deb package is also available for download from <a href="https://github.com/s1l3nt78/sifter/releases/download/v10.2g/sifter_10.2_G.deb"><strong>here</strong></a></em>
+<em>[<strong>Sifter | Gemin1's</strong>] latest .deb package is also available for download from <a href="https://github.com/s1l3nt78/sifter/releases/download/v10.4g/sifter_10.4_G.deb"><strong>here</strong></a></em>
 <br />
 <em>Older Releases can be found <a href="https://github.com/s1l3nt78/sifter/archive/"><strong>here</strong></a></em>
 <br>
@@ -40,11 +39,14 @@
 
 ---------------------------------------------------------------------------------------------------------------------
 
-# Extentions
+# Sifter Plugins
 
-<strong>Sifter Add-On Extentions</strong>
-- <a href="https://github.com/Sifter-Ext/g">g</a> - Sifter's <em>g</em> extention gives a GUI overlay
-<br />	'--> Built on top of <a href="https://github.com/GitSquared/edex-ui">eDEX-UI</a>
+<details>
+	<summary><strong># Released Extentions</strong></summary>
+- <a href="https://github.com/Sifter-Ex/g">G</a> - Sifter's <em>g</em> extention gives a GUI overlay
+<br />	'--> Built on top of <a href="https://github.com/GitSquared/edex-ui">eDEX-UI</a><br />
+- <a href="https://github.com/Sifter-Ex/f">F</a> - Sifter's <em>f</em> extention provides the DanderFuzz Exploitational Plugin for Sifter
+</details>
 
 ---------------------------------------------------------------------------------------------------------------------
 
@@ -103,222 +105,6 @@ Sifter can be found <a href="https://github.com/s1l3nt78/sifter">here</a>
 
 ----------------------------------------------------------------------------------------------------------------------
 
-# Sifter's Modules:
-* Click to Expand
-
-<details>
-<summary><strong>#Enterprise Information Gatherers</strong></summary>
-- <a href="https://github.com/laramies/theHarvester">theHarvester</a><br />
-- <a href="https://github.com/j3ssie/Osmedeus">Osmedeus</a><br />
-- <a href="https://github.com/bhavsec/reconspider">ReconSpider</a><br />
-- <a href="https://github.com/Raikia/CredNinja">CredNinja</a><br />
-- <a href="https://github.com/lockfale/OSINT-Framework">OSINT-Framework</a>
-</details>
-
-<details>
-<summary>
-<strong>#Targeted Information Gatherers</strong>
-</summary>
-- <a href="https://github.com/saeeddhqan/Maryam">Maryam</a><br />
-- <a href="https://github.com/thewhiteh4t/seeker">Seeker</a><br />
-- <a href="https://github.com/sherlock-project/sherlock">Sherlock</a><br />
-- <a href="https://github.com/evilsocket/xray">xRay</a><br />
-- <a href="https://github.com/martinvigo/email2phonenumber">E2P (Email2Phone)</a><br />
-- <a href="https://github.com/chrismaddalena/ODIN">ODIN</a><br />
-- <a href="https://github.com/itsmehacker/CardPwn">CardPwn</a><br />
-- <a href="https://github.com/kennbroorg/iKy">iKy</a><br />
-- <a href="https://github.com/mxrch/GHunt">GHunt</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Domain Recon Gathering</strong></summary>
-- <a href="https://github.com/elceef/dnstwist">DnsTwist</a><br />
-- <a href="https://github.com/depthsecurity/armory">Armory</a><br />
-- <a href="https://github.com/smicallef/spiderfoot">SpiderFoot</a><br />
-- <a href="https://github.com/FooBallZ/pulsar">Pulsar</a><br />
-- <a href="https://github.com/projectdiscovery/subfinder">SubFinder</a><br />
-- <a href="https://github.com/Technowlogy-Pushpender/subdover">SubDover</a><br />
-</p>
-</details>
-
-<details>
-<summary>
-<strong>#MicroSoft Exploitation</strong></summary>
-- <a href="https://github.com/m8r0wn/ActiveReign">ActiveReign</a><br />
-- <a href="https://github.com/Cyb0r9/ispy">iSpy</a><br />
-- <a href="#">SMBGhost</a><br />
-&emsp;&emsp;-- <a href="https://github.com/ioncube/SMBGhost">SMBGhost Scanner</a><br />
-&emsp;&emsp;-- <a href="https://github.com/chompie1337/SMBGhost_RCE_PoC">SMBGhost Exploit</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Website Exploiters</strong></summary>
-- <a href="#">DDoS</a><br />
-&emsp;&emsp;-- <a href="https://github.com/s1l3nt78/Dark-Star">Dark-Star</a><br />
-&emsp;&emsp;-- <a href="https://github.com/LimerBoy/Impulse">Impulse</a><br />
-&emsp;&emsp;-- <a href="https://github.com/epsylon/ufonet">UFONet</a><br />
-- <a href="https://github.com/tegal1337/NekoBotV1">NekoBot</a><br />
-- <a href="https://github.com/capture0x/XSHOCK">xShock</a><br />
-- <a href="https://github.com/anouarbensaad/vulnx">VulnX</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Exploit Searching</strong></summary>
-- <a href="https://github.com/1N3/Findsploit">FindSploit</a><br />
-- <a href="https://github.com/shodansploit/shodansploit">ShodanSploit</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Post-Exploitation</strong></summary>
-- <a href="https://github.com/padovah4ck/CVE-2020-0683">EoP Exploit (Privilege Escalation Exploit)</a><br />
-- Potatoes<br />
-&emsp;&emsp;-- <a href="https://github.com/BeichenDream/BadPotato">BadPotato</a><br />
-&emsp;&emsp;-- <a href="https://github.com/CCob/SweetPotato">SweetPotato</a><br />
-- PEAS <br />
-&emsp;&emsp;-- <a href="https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite">winPEAS</a><br />
-&emsp;&emsp;-- <a href="https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite">linPEAS</a><br />
-- <a href="https://github.com/S3cur3Th1sSh1t/WinPwn">WinPwn</a><br />
-- <a href="https://github.com/Technowlogy-Pushpender/creds_harvester">CredHarvester</a><br />
-- <a href="https://github.com/S3cur3Th1sSh1t/PowerSharpPack">PowerSharp</a><br />
-- <a href="https://github.com/cyberark/ACLight">ACLight2</a><br />
-- <a href="https://github.com/AdrianVollmer/PowerHub">PowerHub</a><br />
-- <a href="https://github.com/Kevin-Robertson/InveighZero">InveighZero</a>		  
-</details>
-
-<details>
-<summary>
-<strong>#Exploitation Frameworks</strong></summary>
-+ <a href="#">DanderFuzz</a> - Equation Group, Courtesy of the Shadow Brokers<br /> 
-	   	 (Obtained through issue request.)<br />
-&emsp;&emsp;- FuzzBunch<br />
-&emsp;&emsp;- Danderspritz<br />
-<br />
-+ <a href="#">NevrrMore</a> - Private Exploitation framework I've been developing that will<br />
-&emsp;&emsp;<strong>not</strong> be released opensource. Due to certain 0days and other exploits/tools<br />
-&emsp;&emsp;it would cause too much unintentional/illintentioned damage.<br />
-<br />
-+ <a href="https://github.com/entynetproject/thoron">Thoron</a><br />
-+ <a href="https://metasploit.com">Metasploit</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Phishing</strong></summary>
-+ <a href="https://github.com/s1l3nt78/TigerShark">TigerShark</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#BruteForcing</strong></summary>
-+ <a href="https://github.com/GitHackTools/BruteDum">BruteDUM</a><br />
-+ <a href="https://github.com/wuseman/WBRUTER">WBruter</a><br />		  
-</details>
-
-<details>
-<summary>
-<strong>#Password Tools</strong></summary>
-- <a href="https://github.com/sc0tfree/mentalist">Mentalist</a><br />
-- <a href="https://github.com/k4m4/dcipher">DCipher</a><br />
-- <a href="https://github.com/Ciphey/Ciphey">Ciphey</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Network Scanners</strong></summary>
-- <a href="https://nmap.org">Nmap</a><br />
-- <a href="https://github.com/superhedgy/AttackSurfaceMapper">AttackSurfaceMapper</a><br />
-- <a href="https://github.com/harleo/asnip">aSnip</a><br />
-- <a href="https://github.com/EnableSecurity/wafw00f">wafw00f</a><br />
-- <a href="#">Arp-Scan</a><br />
-- <a href="https://www.github.com/josh0xA/Espionage">Espionage</a><br />
-- <a href="https://github.com/intrigueio/intrigue-core">Intrigue-Core</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#HoneyPot Detection Systems</strong></summary>
-- <a href="https://github.com/aswinmguptha/HoneyCaught">HoneyCaught</a><br />
-- <a href="https://github.com/MrSuicideParrot/SniffingBear">SniffingBear</a><br />
-- <a href="https://github.com/Phype/telnet-iot-honeypot">HoneyTel (telnet-iot-honeypot)</a><br />
-- <a href="https://github.com/hacklcx/HFish">HFish</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Vulnerability Scanners</strong></summary>
-- <a href="https://github.com/cloudflare/flan">Flan</a><br />
-- <a href="https://github.com/skavngr/rapidscan">Rapidscan</a><br />
-- <a href="https://github.com/Yukinoshita47/Yuki-Chan-The-Auto-Pentest">Yuki-Chan</a><br />
-- <a href="https://github.com/PowerScript/KatanaFramework">Katana-VF (Vulnerability Framework)</a><br />
-- <a href="https://github.com/zdresearch/OWASP-Nettacker">OWASP-Nettacker</a><br />
-- <a href="https://github.com/Technowlogy-Pushpender/CVE-2020-5902-Scanner">Big IP Remote Execution Scanner</a>
-</details>
-
-<details>
-<summary>
-<strong>#Router Tools</strong></summary>
-- <a href="https://github.com/threat9/routersploit">RouterSploit</a><br />
-- <a href="https://github.com/s1l3nt78/MkCheck">MkCheck</a><br />
-- <a href="https://github.com/v1s1t0r1sh3r3/airgeddon">Airgeddon</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#WebApplication Scanners</strong></summary>
-- <a href="https://github.com/shenril/Sitadel">Sitadel</a><br />
-- <a href="https://github.com/nyxgeek/onedrive_user_enum">OneFind</a><br />
-- <a href="https://github.com/Technowlogy-Pushpender/aapfinder">AapFinder</a><br />
-- <a href="https://github.com/mazen160/bfac">BFAC</a><br />
-- <a href="https://github.com/yogeshojha/rengine">reNgine</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Website Scanners & Enumerators</strong></summary>
-- <a href="https://github.com/sullo/nikto">Nikto</a><br />
-- <a href="https://github.com/1N3/blackwidow">Blackwidow</a><br />
-- <a href="#">Wordpress</a><br />
-&emsp;&emsp;--- <a href="https://github.com/wpscanteam/wpscan">WPScan</a><br />
-&emsp;&emsp;--- <a href="https://github.com/n00py/WPForce">WPForce/Yertle</a><br />
-- <a href="https://github.com/Ekultek/Zeus-Scanner">Zeus-Scanner</a><br />
-- <a href="#">Dirb</a><br />
-- <a href="https://github.com/BullsEye0/dorks-eye">DorksEye</a><br />
-- <a href="https://github.com/adnane-X-tebbaa/Katana">Katana-DS (Dork Scanner)</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Operational Security & Threat Analysis</strong></summary>
-- <a href="https://github.com/QAX-A-Team/EventCleaner">EventCleaner</a><br />
-- <a href="https://github.com/mike-goodwin/owasp-threat-dragon-desktop">Threat Dragon</a><br />
-</details>
-
-<details>
-<summary>
-<strong>#Cross-Site Scripting & SQL Injection</strong></summary>
-- <em>SQLinjection</em><br />
-&emsp;&emsp;--- <a href="https://github.com/WhitewidowScanner/whitewidow">WhiteWidow</a><br />
-&emsp;&emsp;--- <a href="https://github.com/v3n0m-Scanner/V3n0M-Scanner">V3n0M-Scanner</a><br />
-- <em>Cross-Site Scripting</em><br />
-&emsp;&emsp;--- <a href="https://github.com/s0md3v/XSStrike">XSStrike</a><br />
-&emsp;&emsp;--- <a href="https://github.com/dwisiswant0/findom-xss">finDOM-XSS</a><br />
-&emsp;&emsp;--- <a href="https://github.com/PR0PH3CY33/XSS-Freak">XSS-Freak</a>
-</details>
-
-<details>
-<summary>
-<strong>#Web Mini-Games</strong></summary>
-- This was added in order to have a fun way to pass time<br />
-&ensp;during the more time intensive modules.<br />
-&ensp;Such as nMap Full Port scan or a RapidScan run.
-</details>
-
----------------------------------------------------------------------------------------------------------------------
-
 # Other Projects
 <br />
 All information on projects in development can be found <a href="https://s1l3nt78.github.io">here</a>. 
@@ -329,8 +115,6 @@ For ideas or collaboration requests on future projects., contact details can be 
 <br />
 <br />
 <em>GitHub Pages can be found here.
-<br />
-- <a href="https://s1l3nt78.github.io/sifter">Sifter</a> = OSINT, Recon & Vulnerability Analysis Framework
 <br />
 - <a href="https://s1l3nt78.github.io/MkCheck">MkCheck</a> = MikroTik Router Exploitation Tool
 <br />
