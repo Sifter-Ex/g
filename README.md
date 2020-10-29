@@ -43,9 +43,9 @@
 
 <details>
 	<summary><strong># Released Extentions</strong></summary>
-- <a href="https://github.com/Sifter-Ex/g">G</a> - Sifter's <em>g</em> extention gives a GUI overlay
+- <a href="https://github.com/Sifter-Ex/gPlug">G</a> - Sifter's <em>g</em> extention gives a GUI overlay
 <br />&emsp;&emsp;	'--> Built on top of <a href="https://github.com/GitSquared/edex-ui">eDEX-UI</a><br />
-- <a href="https://github.com/Sifter-Ex/f">F</a> - Sifter's <em>f</em> extention provides the DanderFuzz Exploitational Plugin for Sifter
+- <a href="https://github.com/Sifter-Ex/fPlug">F</a> - Sifter's <em>f</em> extention provides the DanderFuzz Exploitational Plugin for Sifter
 <br />&emsp;&emsp;	'--> Framework created by the <a href="#">EquationGroup</a> courtesy of <a href="#">The Shadow Brokers</a>
 </details>
 
@@ -87,7 +87,7 @@ Untested on mac, though theoretically the same should apply to mac as windows - 
 	
 	[!] To install the g extention, copy and paste the following into a terminal:
 	*
-	$ git clone --branch g-ex https://github.com/Sifter-Ex/g && cd g && bash plug-G.sh && gSifter
+	$ git clone --branch g-ex https://github.com/Sifter-Ex/gPlug && cd gPlug && bash plug-G.sh && gSifter
 
 ---------------------------------------------------------------------------------------------------------------------
 
