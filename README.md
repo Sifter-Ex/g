@@ -4,9 +4,9 @@
 <p align="center">
 	<img align="center" src="https://raw.githubusercontent.com/s1l3nt78/sifter/master/docs/sifter.png">
 <br>
-  	<img align="center" src="https://img.shields.io/github/issues/s1l3nt78/sifter">
-  	<img align="center" src="https://img.shields.io/github/forks/s1l3nt78/sifter">
-  	<img align="center" src="https://img.shields.io/github/stars/s1l3nt78/sifter">		  
+  	<img align="center" src="https://img.shields.io/github/issues/Sifter-Ex/gPlug">
+  	<img align="center" src="https://img.shields.io/github/forks/Sifter-Ex/gPlug">
+  	<img align="center" src="https://img.shields.io/github/stars/Sifter-Ex/gPlug">		  
 <br>
 	<img align="center" src="https://img.shields.io/badge/@Codename:-g-yellowgreen"><br />
 	<img align="center" src="https://img.shields.io/badge/Version-Alpha-green">
