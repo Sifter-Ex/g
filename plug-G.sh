@@ -5,9 +5,7 @@ sudo mv gSifter -t /usr/sbin
 mv gSifter_eDEX-UI.AppImage -t /opt/sifter
 sudo chmod +x /usr/sbin/gSifter /opt/sifter/gSifter_eDEX-UI.AppImage
 sudo chown $USER:$USER /usr/sbin/gSifter 
-CG=$(pwd | grep g)
+CG=$(pwd)
 echo "alias gsif='gSifter'" >> ~/.bash_aliases
-if [[ ${CG} == */"g" ]];then
-  cd ..
-  sudo rm -rf g
-fi
+rm -rf ${CG}
+cd
